@@ -13,6 +13,9 @@ font pango:monospace 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# set default layout as stacking
+workspace_layout tabbed
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
@@ -159,7 +162,7 @@ bindsym $mod1+minus exec amixer -q set Master 2dB- unmute && pkill -SIGRTMIN+10 
 bindsym $mod1+0 exec amixer -D pulse set Master toggle && pkill -SIGRTMIN+10 i3blocks
 
 # lock screen after pressing alt+l using i3exit script i've written
-# bindsym $mod1+l exec i3exit lock 
+bindsym $mod1+l exec i3exit lock 
 # exec --no-startup-id xautolock -locker "i3exit lock" -time 5 -detectsleep -notify 5
 
 # script to keep the screen turning off
@@ -174,3 +177,8 @@ exec --no-startup-id nitrogen --restore
 bindsym $mod1+bracketright exec playerctl next
 bindsym $mod1+bracketleft exec playerctl pervious
 bindsym $mod1+p exec playerctl play-pause
+
+# binding to capture screenshot
+bindsym $mod1+backslash exec scrot -e 'mv $f ~/Pictures/shots/' 
+
+ 
