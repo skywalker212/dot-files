@@ -1,0 +1,64 @@
+[2019-07-23 19:00:28.168] [exthost] [info] extension host started
+[2019-07-23 19:00:28.186] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-07-23 19:00:28.186] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/emmet/dist/extension
+[2019-07-23 19:00:28.286] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-07-23 19:00:28.286] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/html-language-features/client/dist/htmlMain
+[2019-07-23 19:00:28.554] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-23 19:00:28.554] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2019-07-23 19:00:28.646] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-23 19:00:28.646] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/git/dist/main
+[2019-07-23 19:00:28.825] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-23 19:00:28.825] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/merge-conflict/dist/extension
+[2019-07-23 19:00:28.918] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"activationEvent":"*"}
+[2019-07-23 19:00:28.918] [exthost] [info] ExtensionService#loadCommonJSModule /home/skywalker/.vscode-oss/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2019-07-23 19:00:32.553] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-07-23 19:00:32.553] [exthost] [info] ExtensionService#loadCommonJSModule /home/skywalker/.vscode-oss/extensions/vscodevim.vim-1.8.2/out/extension
+[2019-07-23 19:00:33.565] [exthost] [info] eager extensions activated
+[2019-07-23 19:05:35.763] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-07-23 19:05:35.763] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/extension-editing/dist/extension
+[2019-07-23 19:05:35.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-07-23 19:05:35.866] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/typescript-language-features/dist/extension
+[2019-07-23 19:05:48.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-07-23 19:05:48.714] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/configuration-editing/dist/extension
+[2019-07-23 19:05:48.747] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-07-23 19:05:48.747] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/json-language-features/client/dist/jsonMain
+[2019-07-23 19:07:19.248] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-07-23 19:07:19.249] [exthost] [error] Error: <main> TypeScript Server Error (3.5.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at Object.getImportCompletionAction (tsserver.js:115302:22)
+    at getCompletionEntryCodeActionsAndSourceDisplay (tsserver.js:99848:33)
+    at Object.getCompletionEntryDetails (tsserver.js:99812:30)
+    at Object.getCompletionEntryDetails (tsserver.js:122110:35)
+    at tsserver.js:131177:57
+    at Object.mapDefined (tsserver.js:670:30)
+    at IOSession.Session.getCompletionEntryDetails (tsserver.js:131175:33)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:130106:61)
+    at tsserver.js:131665:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:131656:28)
+    at IOSession.Session.executeCommand (tsserver.js:131665:33)
+    at IOSession.Session.onMessage (tsserver.js:131687:35)
+    at Interface.<anonymous> (tsserver.js:132978:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+	at Function.create (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:53:63436)
+	at h.dispatchResponse (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:53:56618)
+	at h.dispatchMessage (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:53:55516)
+	at constructor._reader.onData.e (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:53:54992)
+	at u.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:468)
+	at t.Reader.onLengthData (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:53:61656)
+	at Socket.t.Reader.constructor.e.on.e (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:53:61304)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:283:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+[2019-07-23 19:09:47.855] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:css"}
+[2019-07-23 19:09:47.855] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/css-language-features/client/dist/cssMain

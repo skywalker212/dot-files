@@ -1,0 +1,8 @@
+[2019-07-18 18:47:00.015] [sharedprocess] [info] main {"machineId":"a8b3297a2ac359bb603cbce5a597c133a1cc7094aac69bd95b10ed49ccaf50c3"}
+[2019-07-18 18:47:40.026] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-07-18 18:47:56.117] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2019-07-18 18:48:06.544] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/6eaf3545-dbde-436c-94a2-0c9ef992f0ec
+[2019-07-18 18:48:10.873] [sharedprocess] [info] Extracted extension to /home/skywalker/.vscode-oss/extensions/.vscodevim.vim-1.8.2: vscodevim.vim
+[2019-07-18 18:48:10.874] [sharedprocess] [info] Renamed to /home/skywalker/.vscode-oss/extensions/vscodevim.vim-1.8.2
+[2019-07-18 18:48:10.875] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2019-07-18 18:48:10.962] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
