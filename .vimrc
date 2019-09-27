@@ -50,3 +50,8 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
+" show line numbers
+set number
+
+vmap <Tab> >gv
+vmap <S-Tab> <gv

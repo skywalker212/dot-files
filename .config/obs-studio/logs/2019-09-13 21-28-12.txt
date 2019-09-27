@@ -1,0 +1,1047 @@
+09:28:12 PM.468: CPU Name: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+09:28:12 PM.468: CPU Speed: 2891.393MHz
+09:28:12 PM.469: Physical Cores: 2, Logical Cores: 4
+09:28:12 PM.469: Physical Memory: 7891MB Total, 3059MB Free
+09:28:12 PM.469: Kernel Version: Linux 5.2.14-arch2-1-ARCH
+09:28:12 PM.469: Distribution: "Arch Linux" Unknown
+09:28:12 PM.469: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.5
+09:28:12 PM.533: Portable mode: false
+09:28:14 PM.630: OBS 23.2.1-2 (linux)
+09:28:14 PM.630: ---------------------------------
+09:28:14 PM.631: ---------------------------------
+09:28:14 PM.631: audio settings reset:
+09:28:14 PM.631: 	samples per sec: 44100
+09:28:14 PM.631: 	speakers:        2
+09:28:14 PM.669: ---------------------------------
+09:28:14 PM.669: Initializing OpenGL...
+09:28:14 PM.708: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+09:28:14 PM.708: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 19.1.6, shading language 4.50
+09:28:14 PM.983: ---------------------------------
+09:28:14 PM.983: video settings reset:
+09:28:14 PM.983: 	base resolution:   1366x768
+09:28:14 PM.983: 	output resolution: 908x512
+09:28:14 PM.983: 	downscale filter:  Bicubic
+09:28:14 PM.983: 	fps:               30/1
+09:28:14 PM.983: 	format:            NV12
+09:28:14 PM.983: 	YUV mode:          601/Partial
+09:28:14 PM.983: NV12 texture support not available
+09:28:14 PM.988: Audio monitoring device:
+09:28:14 PM.988: 	name: Default
+09:28:14 PM.988: 	id: default
+09:28:14 PM.988: ---------------------------------
+09:28:15 PM.097: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+09:28:18 PM.841: No blackmagic support
+09:28:19 PM.361: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+09:28:19 PM.361: 
+09:28:19 PM.361: FFMPEG VAAPI supported
+09:28:20 PM.284: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+09:28:20 PM.284: 
+09:28:20 PM.284: Couldn't find VLC installation, VLC video source disabled
+09:28:20 PM.284: ---------------------------------
+09:28:20 PM.284:   Loaded Modules:
+09:28:20 PM.285:     vlc-video.so
+09:28:20 PM.285:     text-freetype2.so
+09:28:20 PM.285:     rtmp-services.so
+09:28:20 PM.285:     obs-x264.so
+09:28:20 PM.285:     obs-transitions.so
+09:28:20 PM.285:     obs-outputs.so
+09:28:20 PM.285:     obs-libfdk.so
+09:28:20 PM.285:     obs-filters.so
+09:28:20 PM.285:     obs-ffmpeg.so
+09:28:20 PM.285:     linux-v4l2.so
+09:28:20 PM.285:     linux-pulseaudio.so
+09:28:20 PM.285:     linux-jack.so
+09:28:20 PM.285:     linux-decklink.so
+09:28:20 PM.285:     linux-capture.so
+09:28:20 PM.285:     linux-alsa.so
+09:28:20 PM.285:     image-source.so
+09:28:20 PM.285:     frontend-tools.so
+09:28:20 PM.285:     decklink-ouput-ui.so
+09:28:20 PM.285: ---------------------------------
+09:28:20 PM.321: ==== Startup complete ===============================================
+09:28:20 PM.463: All scene data cleared
+09:28:20 PM.463: ------------------------------------------------
+09:28:20 PM.491: pulse-input: Server name: 'pulseaudio 12.99.3'
+09:28:20 PM.492: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:28:20 PM.492: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+09:28:20 PM.494: pulse-input: Server name: 'pulseaudio 12.99.3'
+09:28:20 PM.494: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:28:20 PM.494: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+09:28:20 PM.496: pulse-input: Server name: 'pulseaudio 12.99.3'
+09:28:20 PM.497: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:28:20 PM.497: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+09:28:20 PM.499: alsa-input: PCM 'default' rate set to 44100
+09:28:20 PM.499: alsa-input: PCM 'default' channels set to 2
+09:28:20 PM.501: v4l2-input: Start capture from /dev/video0
+09:28:20 PM.686: v4l2-input: Input: 0
+09:28:20 PM.700: v4l2-input: Resolution: 640x480
+09:28:20 PM.700: v4l2-input: Pixelformat: VYUY
+09:28:20 PM.700: v4l2-input: Linesize: 1280 Bytes
+09:28:20 PM.700: v4l2-input: Framerate: 30.00 fps
+09:28:20 PM.734: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:28:20 PM.734: 	title: Dota 2
+09:28:20 PM.734: 	class: dota2
+09:28:20 PM.734: 	Has alpha: yes
+09:28:20 PM.734: 	Found proper GLXFBConfig: yes
+09:28:20 PM.734: 
+09:28:20 PM.734: Switched to scene 'Scene'
+09:28:20 PM.735: ------------------------------------------------
+09:28:20 PM.735: Loaded scenes:
+09:28:20 PM.735: - scene 'Scene':
+09:28:20 PM.850:     - source: 'Audio Capture Device (ALSA)' (alsa_input_capture)
+09:28:20 PM.850:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+09:28:20 PM.850:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+09:28:20 PM.850: ------------------------------------------------
+09:28:21 PM.996: adding 766 milliseconds of audio buffering, total audio buffering is now 766 milliseconds (source: Audio Capture Device (ALSA))
+09:28:21 PM.996: 
+09:28:23 PM.167: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:28:23 PM.167: 	title: Dota 2
+09:28:23 PM.167: 	class: dota2
+09:28:23 PM.167: 	Has alpha: yes
+09:28:23 PM.167: 	Found proper GLXFBConfig: yes
+09:28:23 PM.167: 
+09:28:23 PM.363: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:28:23 PM.363: 	title: Dota 2
+09:28:23 PM.363: 	class: dota2
+09:28:23 PM.363: 	Has alpha: yes
+09:28:23 PM.363: 	Found proper GLXFBConfig: yes
+09:28:23 PM.363: 
+09:28:29 PM.876: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:28:29 PM.887: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:28:30 PM.887: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:28:31 PM.796: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:28:31 PM.796: 	title: Dota 2
+09:28:31 PM.796: 	class: dota2
+09:28:31 PM.796: 	Has alpha: yes
+09:28:31 PM.796: 	Found proper GLXFBConfig: yes
+09:28:31 PM.796: 
+09:28:31 PM.930: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:28:31 PM.930: 	title: Dota 2
+09:28:31 PM.930: 	class: dota2
+09:28:31 PM.930: 	Has alpha: yes
+09:28:31 PM.930: 	Found proper GLXFBConfig: yes
+09:28:31 PM.930: 
+09:28:31 PM.965: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:28:31 PM.965: 	title: Dota 2
+09:28:31 PM.965: 	class: dota2
+09:28:31 PM.965: 	Has alpha: yes
+09:28:31 PM.965: 	Found proper GLXFBConfig: yes
+09:28:31 PM.965: 
+09:28:32 PM.954: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:29:17 PM.876: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:29:17 PM.876: 	title: Dota 2
+09:29:17 PM.876: 	class: dota2
+09:29:17 PM.876: 	Has alpha: yes
+09:29:17 PM.876: 	Found proper GLXFBConfig: yes
+09:29:17 PM.876: 
+09:29:18 PM.165: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:29:18 PM.165: 	title: Dota 2
+09:29:18 PM.165: 	class: dota2
+09:29:18 PM.165: 	Has alpha: yes
+09:29:18 PM.165: 	Found proper GLXFBConfig: yes
+09:29:18 PM.165: 
+09:30:23 PM.064: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:30:23 PM.064: 	title: Dota 2
+09:30:23 PM.064: 	class: dota2
+09:30:23 PM.064: 	Has alpha: yes
+09:30:23 PM.064: 	Found proper GLXFBConfig: yes
+09:30:23 PM.064: 
+09:30:23 PM.266: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:30:23 PM.266: 	title: Dota 2
+09:30:23 PM.266: 	class: dota2
+09:30:23 PM.266: 	Has alpha: yes
+09:30:23 PM.266: 	Found proper GLXFBConfig: yes
+09:30:23 PM.266: 
+09:30:54 PM.723: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:30:54 PM.794: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:30:55 PM.791: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:30:56 PM.789: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:30:57 PM.854: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:31:09 PM.502: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:09 PM.502: 	title: Dota 2
+09:31:09 PM.502: 	class: dota2
+09:31:09 PM.502: 	Has alpha: yes
+09:31:09 PM.502: 	Found proper GLXFBConfig: yes
+09:31:09 PM.502: 
+09:31:09 PM.727: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:09 PM.727: 	title: Dota 2
+09:31:09 PM.727: 	class: dota2
+09:31:09 PM.727: 	Has alpha: yes
+09:31:09 PM.727: 	Found proper GLXFBConfig: yes
+09:31:09 PM.727: 
+09:31:11 PM.158: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:31:11 PM.230: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.230: 	title: Dota 2
+09:31:11 PM.230: 	class: dota2
+09:31:11 PM.230: 	Has alpha: yes
+09:31:11 PM.230: 	Found proper GLXFBConfig: yes
+09:31:11 PM.230: 
+09:31:11 PM.262: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.262: 	title: Dota 2
+09:31:11 PM.262: 	class: dota2
+09:31:11 PM.262: 	Has alpha: yes
+09:31:11 PM.262: 	Found proper GLXFBConfig: yes
+09:31:11 PM.262: 
+09:31:11 PM.293: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.293: 	title: Dota 2
+09:31:11 PM.293: 	class: dota2
+09:31:11 PM.293: 	Has alpha: yes
+09:31:11 PM.293: 	Found proper GLXFBConfig: yes
+09:31:11 PM.293: 
+09:31:11 PM.328: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.328: 	title: Dota 2
+09:31:11 PM.328: 	class: dota2
+09:31:11 PM.328: 	Has alpha: yes
+09:31:11 PM.328: 	Found proper GLXFBConfig: yes
+09:31:11 PM.328: 
+09:31:11 PM.361: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.361: 	title: Dota 2
+09:31:11 PM.361: 	class: dota2
+09:31:11 PM.361: 	Has alpha: yes
+09:31:11 PM.361: 	Found proper GLXFBConfig: yes
+09:31:11 PM.361: 
+09:31:11 PM.393: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.393: 	title: Dota 2
+09:31:11 PM.393: 	class: dota2
+09:31:11 PM.393: 	Has alpha: yes
+09:31:11 PM.393: 	Found proper GLXFBConfig: yes
+09:31:11 PM.393: 
+09:31:11 PM.441: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.441: 	title: Dota 2
+09:31:11 PM.441: 	class: dota2
+09:31:11 PM.441: 	Has alpha: yes
+09:31:11 PM.441: 	Found proper GLXFBConfig: yes
+09:31:11 PM.441: 
+09:31:11 PM.467: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.467: 	title: Dota 2
+09:31:11 PM.467: 	class: dota2
+09:31:11 PM.467: 	Has alpha: yes
+09:31:11 PM.467: 	Found proper GLXFBConfig: yes
+09:31:11 PM.467: 
+09:31:11 PM.502: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.502: 	title: Dota 2
+09:31:11 PM.502: 	class: dota2
+09:31:11 PM.502: 	Has alpha: yes
+09:31:11 PM.502: 	Found proper GLXFBConfig: yes
+09:31:11 PM.502: 
+09:31:11 PM.531: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.531: 	title: Dota 2
+09:31:11 PM.531: 	class: dota2
+09:31:11 PM.531: 	Has alpha: yes
+09:31:11 PM.531: 	Found proper GLXFBConfig: yes
+09:31:11 PM.531: 
+09:31:11 PM.567: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.567: 	title: Dota 2
+09:31:11 PM.567: 	class: dota2
+09:31:11 PM.567: 	Has alpha: yes
+09:31:11 PM.567: 	Found proper GLXFBConfig: yes
+09:31:11 PM.567: 
+09:31:11 PM.601: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.601: 	title: Dota 2
+09:31:11 PM.601: 	class: dota2
+09:31:11 PM.601: 	Has alpha: yes
+09:31:11 PM.601: 	Found proper GLXFBConfig: yes
+09:31:11 PM.601: 
+09:31:11 PM.635: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.635: 	title: Dota 2
+09:31:11 PM.635: 	class: dota2
+09:31:11 PM.635: 	Has alpha: yes
+09:31:11 PM.635: 	Found proper GLXFBConfig: yes
+09:31:11 PM.635: 
+09:31:11 PM.667: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.667: 	title: Dota 2
+09:31:11 PM.667: 	class: dota2
+09:31:11 PM.667: 	Has alpha: yes
+09:31:11 PM.667: 	Found proper GLXFBConfig: yes
+09:31:11 PM.667: 
+09:31:11 PM.698: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.698: 	title: Dota 2
+09:31:11 PM.698: 	class: dota2
+09:31:11 PM.698: 	Has alpha: yes
+09:31:11 PM.698: 	Found proper GLXFBConfig: yes
+09:31:11 PM.698: 
+09:31:11 PM.732: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.732: 	title: Dota 2
+09:31:11 PM.732: 	class: dota2
+09:31:11 PM.732: 	Has alpha: yes
+09:31:11 PM.732: 	Found proper GLXFBConfig: yes
+09:31:11 PM.732: 
+09:31:11 PM.769: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.769: 	title: Dota 2
+09:31:11 PM.769: 	class: dota2
+09:31:11 PM.769: 	Has alpha: yes
+09:31:11 PM.769: 	Found proper GLXFBConfig: yes
+09:31:11 PM.769: 
+09:31:11 PM.794: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.794: 	title: Dota 2
+09:31:11 PM.794: 	class: dota2
+09:31:11 PM.794: 	Has alpha: yes
+09:31:11 PM.794: 	Found proper GLXFBConfig: yes
+09:31:11 PM.794: 
+09:31:11 PM.838: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.838: 	title: Dota 2
+09:31:11 PM.838: 	class: dota2
+09:31:11 PM.838: 	Has alpha: yes
+09:31:11 PM.838: 	Found proper GLXFBConfig: yes
+09:31:11 PM.838: 
+09:31:11 PM.871: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.871: 	title: Dota 2
+09:31:11 PM.871: 	class: dota2
+09:31:11 PM.871: 	Has alpha: yes
+09:31:11 PM.871: 	Found proper GLXFBConfig: yes
+09:31:11 PM.871: 
+09:31:11 PM.894: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.894: 	title: Dota 2
+09:31:11 PM.894: 	class: dota2
+09:31:11 PM.894: 	Has alpha: yes
+09:31:11 PM.894: 	Found proper GLXFBConfig: yes
+09:31:11 PM.894: 
+09:31:11 PM.937: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.937: 	title: Dota 2
+09:31:11 PM.937: 	class: dota2
+09:31:11 PM.937: 	Has alpha: yes
+09:31:11 PM.937: 	Found proper GLXFBConfig: yes
+09:31:11 PM.937: 
+09:31:11 PM.967: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:11 PM.967: 	title: Dota 2
+09:31:11 PM.967: 	class: dota2
+09:31:11 PM.967: 	Has alpha: yes
+09:31:11 PM.967: 	Found proper GLXFBConfig: yes
+09:31:11 PM.967: 
+09:31:12 PM.001: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:12 PM.001: 	title: Dota 2
+09:31:12 PM.001: 	class: dota2
+09:31:12 PM.001: 	Has alpha: yes
+09:31:12 PM.001: 	Found proper GLXFBConfig: yes
+09:31:12 PM.001: 
+09:31:12 PM.034: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:12 PM.034: 	title: Dota 2
+09:31:12 PM.034: 	class: dota2
+09:31:12 PM.034: 	Has alpha: yes
+09:31:12 PM.034: 	Found proper GLXFBConfig: yes
+09:31:12 PM.034: 
+09:31:12 PM.063: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:12 PM.063: 	title: Dota 2
+09:31:12 PM.063: 	class: dota2
+09:31:12 PM.063: 	Has alpha: yes
+09:31:12 PM.063: 	Found proper GLXFBConfig: yes
+09:31:12 PM.063: 
+09:31:12 PM.105: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:12 PM.105: 	title: Dota 2
+09:31:12 PM.105: 	class: dota2
+09:31:12 PM.105: 	Has alpha: yes
+09:31:12 PM.105: 	Found proper GLXFBConfig: yes
+09:31:12 PM.105: 
+09:31:12 PM.135: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:12 PM.135: 	title: Dota 2
+09:31:12 PM.135: 	class: dota2
+09:31:12 PM.135: 	Has alpha: yes
+09:31:12 PM.135: 	Found proper GLXFBConfig: yes
+09:31:12 PM.135: 
+09:31:12 PM.165: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:12 PM.165: 	title: Dota 2
+09:31:12 PM.165: 	class: dota2
+09:31:12 PM.165: 	Has alpha: yes
+09:31:12 PM.165: 	Found proper GLXFBConfig: yes
+09:31:12 PM.165: 
+09:31:12 PM.199: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:12 PM.199: 	title: Dota 2
+09:31:12 PM.199: 	class: dota2
+09:31:12 PM.199: 	Has alpha: yes
+09:31:12 PM.199: 	Found proper GLXFBConfig: yes
+09:31:12 PM.199: 
+09:31:12 PM.233: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:12 PM.233: 	title: Dota 2
+09:31:12 PM.233: 	class: dota2
+09:31:12 PM.233: 	Has alpha: yes
+09:31:12 PM.233: 	Found proper GLXFBConfig: yes
+09:31:12 PM.233: 
+09:31:13 PM.039: Last log entry repeated for 22 more lines
+09:31:13 PM.039: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:31:13 PM.190: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:31:14 PM.223: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+09:31:19 PM.230: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:19 PM.230: 	title: Dota 2
+09:31:19 PM.230: 	class: dota2
+09:31:19 PM.230: 	Has alpha: yes
+09:31:19 PM.230: 	Found proper GLXFBConfig: yes
+09:31:19 PM.230: 
+09:31:19 PM.433: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:19 PM.433: 	title: Dota 2
+09:31:19 PM.433: 	class: dota2
+09:31:19 PM.433: 	Has alpha: yes
+09:31:19 PM.433: 	Found proper GLXFBConfig: yes
+09:31:19 PM.433: 
+09:31:22 PM.030: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:22 PM.030: 	title: Dota 2
+09:31:22 PM.030: 	class: dota2
+09:31:22 PM.030: 	Has alpha: yes
+09:31:22 PM.030: 	Found proper GLXFBConfig: yes
+09:31:22 PM.030: 
+09:31:22 PM.162: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:22 PM.162: 	title: Dota 2
+09:31:22 PM.162: 	class: dota2
+09:31:22 PM.162: 	Has alpha: yes
+09:31:22 PM.162: 	Found proper GLXFBConfig: yes
+09:31:22 PM.162: 
+09:31:29 PM.060: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:29 PM.060: 	title: Dota 2
+09:31:29 PM.060: 	class: dota2
+09:31:29 PM.060: 	Has alpha: yes
+09:31:29 PM.060: 	Found proper GLXFBConfig: yes
+09:31:29 PM.060: 
+09:31:29 PM.061: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.061: device_copy_texture (GL) failed
+09:31:29 PM.084: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.084: device_copy_texture (GL) failed
+09:31:29 PM.117: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.117: device_copy_texture (GL) failed
+09:31:29 PM.151: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.151: device_copy_texture (GL) failed
+09:31:29 PM.184: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.184: device_copy_texture (GL) failed
+09:31:29 PM.217: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.217: device_copy_texture (GL) failed
+09:31:29 PM.251: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.251: device_copy_texture (GL) failed
+09:31:29 PM.284: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.284: device_copy_texture (GL) failed
+09:31:29 PM.317: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.317: device_copy_texture (GL) failed
+09:31:29 PM.351: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.351: device_copy_texture (GL) failed
+09:31:29 PM.384: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.384: device_copy_texture (GL) failed
+09:31:29 PM.417: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.417: device_copy_texture (GL) failed
+09:31:29 PM.451: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.451: device_copy_texture (GL) failed
+09:31:29 PM.484: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.484: device_copy_texture (GL) failed
+09:31:29 PM.517: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.517: device_copy_texture (GL) failed
+09:31:29 PM.551: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.551: device_copy_texture (GL) failed
+09:31:29 PM.584: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.584: device_copy_texture (GL) failed
+09:31:29 PM.617: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.617: device_copy_texture (GL) failed
+09:31:29 PM.650: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.651: device_copy_texture (GL) failed
+09:31:29 PM.684: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.684: device_copy_texture (GL) failed
+09:31:29 PM.717: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.717: device_copy_texture (GL) failed
+09:31:29 PM.750: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.751: device_copy_texture (GL) failed
+09:31:29 PM.784: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.785: device_copy_texture (GL) failed
+09:31:29 PM.817: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.818: device_copy_texture (GL) failed
+09:31:29 PM.851: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.851: device_copy_texture (GL) failed
+09:31:29 PM.884: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.884: device_copy_texture (GL) failed
+09:31:29 PM.917: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.917: device_copy_texture (GL) failed
+09:31:29 PM.950: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.951: device_copy_texture (GL) failed
+09:31:29 PM.984: glCopyImageSubData failed, glGetError returned 0x502
+09:31:29 PM.984: device_copy_texture (GL) failed
+09:31:30 PM.018: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.018: device_copy_texture (GL) failed
+09:31:30 PM.051: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.051: device_copy_texture (GL) failed
+09:31:30 PM.084: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.084: device_copy_texture (GL) failed
+09:31:30 PM.117: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.117: device_copy_texture (GL) failed
+09:31:30 PM.151: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.151: device_copy_texture (GL) failed
+09:31:30 PM.184: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.184: device_copy_texture (GL) failed
+09:31:30 PM.217: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.217: device_copy_texture (GL) failed
+09:31:30 PM.251: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.251: device_copy_texture (GL) failed
+09:31:30 PM.284: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.284: device_copy_texture (GL) failed
+09:31:30 PM.318: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.318: device_copy_texture (GL) failed
+09:31:30 PM.350: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.351: device_copy_texture (GL) failed
+09:31:30 PM.384: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.385: device_copy_texture (GL) failed
+09:31:30 PM.417: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.417: device_copy_texture (GL) failed
+09:31:30 PM.451: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.451: device_copy_texture (GL) failed
+09:31:30 PM.484: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.484: device_copy_texture (GL) failed
+09:31:30 PM.517: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.518: device_copy_texture (GL) failed
+09:31:30 PM.551: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.551: device_copy_texture (GL) failed
+09:31:30 PM.584: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.584: device_copy_texture (GL) failed
+09:31:30 PM.617: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.617: device_copy_texture (GL) failed
+09:31:30 PM.651: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.651: device_copy_texture (GL) failed
+09:31:30 PM.684: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.684: device_copy_texture (GL) failed
+09:31:30 PM.719: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.719: device_copy_texture (GL) failed
+09:31:30 PM.751: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.751: device_copy_texture (GL) failed
+09:31:30 PM.784: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.784: device_copy_texture (GL) failed
+09:31:30 PM.817: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.817: device_copy_texture (GL) failed
+09:31:30 PM.851: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.851: device_copy_texture (GL) failed
+09:31:30 PM.884: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.884: device_copy_texture (GL) failed
+09:31:30 PM.917: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.917: device_copy_texture (GL) failed
+09:31:30 PM.951: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.951: device_copy_texture (GL) failed
+09:31:30 PM.984: glCopyImageSubData failed, glGetError returned 0x502
+09:31:30 PM.984: device_copy_texture (GL) failed
+09:31:31 PM.018: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.018: device_copy_texture (GL) failed
+09:31:31 PM.051: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.051: device_copy_texture (GL) failed
+09:31:31 PM.084: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.084: device_copy_texture (GL) failed
+09:31:31 PM.117: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.117: device_copy_texture (GL) failed
+09:31:31 PM.150: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.151: device_copy_texture (GL) failed
+09:31:31 PM.184: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.184: device_copy_texture (GL) failed
+09:31:31 PM.217: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.217: device_copy_texture (GL) failed
+09:31:31 PM.250: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.251: device_copy_texture (GL) failed
+09:31:31 PM.284: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.284: device_copy_texture (GL) failed
+09:31:31 PM.318: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.318: device_copy_texture (GL) failed
+09:31:31 PM.351: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.351: device_copy_texture (GL) failed
+09:31:31 PM.384: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.384: device_copy_texture (GL) failed
+09:31:31 PM.417: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.417: device_copy_texture (GL) failed
+09:31:31 PM.451: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.451: device_copy_texture (GL) failed
+09:31:31 PM.484: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.484: device_copy_texture (GL) failed
+09:31:31 PM.517: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.517: device_copy_texture (GL) failed
+09:31:31 PM.551: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.551: device_copy_texture (GL) failed
+09:31:31 PM.584: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.584: device_copy_texture (GL) failed
+09:31:31 PM.617: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.617: device_copy_texture (GL) failed
+09:31:31 PM.651: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.651: device_copy_texture (GL) failed
+09:31:31 PM.684: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.684: device_copy_texture (GL) failed
+09:31:31 PM.717: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.717: device_copy_texture (GL) failed
+09:31:31 PM.751: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.751: device_copy_texture (GL) failed
+09:31:31 PM.784: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.784: device_copy_texture (GL) failed
+09:31:31 PM.817: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.817: device_copy_texture (GL) failed
+09:31:31 PM.851: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.851: device_copy_texture (GL) failed
+09:31:31 PM.884: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.884: device_copy_texture (GL) failed
+09:31:31 PM.917: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.917: device_copy_texture (GL) failed
+09:31:31 PM.950: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.951: device_copy_texture (GL) failed
+09:31:31 PM.984: glCopyImageSubData failed, glGetError returned 0x502
+09:31:31 PM.984: device_copy_texture (GL) failed
+09:31:32 PM.018: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.018: device_copy_texture (GL) failed
+09:31:32 PM.051: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.051: device_copy_texture (GL) failed
+09:31:32 PM.084: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.084: device_copy_texture (GL) failed
+09:31:32 PM.117: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.117: device_copy_texture (GL) failed
+09:31:32 PM.150: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.151: device_copy_texture (GL) failed
+09:31:32 PM.184: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.184: device_copy_texture (GL) failed
+09:31:32 PM.217: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.217: device_copy_texture (GL) failed
+09:31:32 PM.251: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.251: device_copy_texture (GL) failed
+09:31:32 PM.284: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.284: device_copy_texture (GL) failed
+09:31:32 PM.317: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.317: device_copy_texture (GL) failed
+09:31:32 PM.351: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.351: device_copy_texture (GL) failed
+09:31:32 PM.384: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.384: device_copy_texture (GL) failed
+09:31:32 PM.419: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.419: device_copy_texture (GL) failed
+09:31:32 PM.451: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.451: device_copy_texture (GL) failed
+09:31:32 PM.484: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.484: device_copy_texture (GL) failed
+09:31:32 PM.517: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.517: device_copy_texture (GL) failed
+09:31:32 PM.551: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.551: device_copy_texture (GL) failed
+09:31:32 PM.584: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.584: device_copy_texture (GL) failed
+09:31:32 PM.617: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.617: device_copy_texture (GL) failed
+09:31:32 PM.650: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.651: device_copy_texture (GL) failed
+09:31:32 PM.684: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.684: device_copy_texture (GL) failed
+09:31:32 PM.717: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.717: device_copy_texture (GL) failed
+09:31:32 PM.751: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.751: device_copy_texture (GL) failed
+09:31:32 PM.784: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.784: device_copy_texture (GL) failed
+09:31:32 PM.817: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.817: device_copy_texture (GL) failed
+09:31:32 PM.850: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.851: device_copy_texture (GL) failed
+09:31:32 PM.884: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.884: device_copy_texture (GL) failed
+09:31:32 PM.917: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.917: device_copy_texture (GL) failed
+09:31:32 PM.951: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.951: device_copy_texture (GL) failed
+09:31:32 PM.984: glCopyImageSubData failed, glGetError returned 0x502
+09:31:32 PM.984: device_copy_texture (GL) failed
+09:31:33 PM.017: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.017: device_copy_texture (GL) failed
+09:31:33 PM.050: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.051: device_copy_texture (GL) failed
+09:31:33 PM.084: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.084: device_copy_texture (GL) failed
+09:31:33 PM.117: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.117: device_copy_texture (GL) failed
+09:31:33 PM.151: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.151: device_copy_texture (GL) failed
+09:31:33 PM.184: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.184: device_copy_texture (GL) failed
+09:31:33 PM.217: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.217: device_copy_texture (GL) failed
+09:31:33 PM.251: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.251: device_copy_texture (GL) failed
+09:31:33 PM.284: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.284: device_copy_texture (GL) failed
+09:31:33 PM.317: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.317: device_copy_texture (GL) failed
+09:31:33 PM.351: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.351: device_copy_texture (GL) failed
+09:31:33 PM.384: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.384: device_copy_texture (GL) failed
+09:31:33 PM.417: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.417: device_copy_texture (GL) failed
+09:31:33 PM.451: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.451: device_copy_texture (GL) failed
+09:31:33 PM.484: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.484: device_copy_texture (GL) failed
+09:31:33 PM.517: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.517: device_copy_texture (GL) failed
+09:31:33 PM.551: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.551: device_copy_texture (GL) failed
+09:31:33 PM.584: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.584: device_copy_texture (GL) failed
+09:31:33 PM.617: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.617: device_copy_texture (GL) failed
+09:31:33 PM.651: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.651: device_copy_texture (GL) failed
+09:31:33 PM.684: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.684: device_copy_texture (GL) failed
+09:31:33 PM.718: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.718: device_copy_texture (GL) failed
+09:31:33 PM.751: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.751: device_copy_texture (GL) failed
+09:31:33 PM.784: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.784: device_copy_texture (GL) failed
+09:31:33 PM.818: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.818: device_copy_texture (GL) failed
+09:31:33 PM.851: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.851: device_copy_texture (GL) failed
+09:31:33 PM.884: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.884: device_copy_texture (GL) failed
+09:31:33 PM.917: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.918: device_copy_texture (GL) failed
+09:31:33 PM.951: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.951: device_copy_texture (GL) failed
+09:31:33 PM.984: glCopyImageSubData failed, glGetError returned 0x502
+09:31:33 PM.984: device_copy_texture (GL) failed
+09:31:34 PM.017: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.018: device_copy_texture (GL) failed
+09:31:34 PM.051: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.051: device_copy_texture (GL) failed
+09:31:34 PM.084: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.084: device_copy_texture (GL) failed
+09:31:34 PM.117: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.118: device_copy_texture (GL) failed
+09:31:34 PM.151: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.151: device_copy_texture (GL) failed
+09:31:34 PM.185: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.185: device_copy_texture (GL) failed
+09:31:34 PM.217: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.217: device_copy_texture (GL) failed
+09:31:34 PM.250: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.251: device_copy_texture (GL) failed
+09:31:34 PM.284: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.284: device_copy_texture (GL) failed
+09:31:34 PM.323: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:34 PM.323: 	title: Dota 2
+09:31:34 PM.323: 	class: dota2
+09:31:34 PM.323: 	Has alpha: yes
+09:31:34 PM.323: 	Found proper GLXFBConfig: yes
+09:31:34 PM.323: 
+09:31:34 PM.323: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.323: device_copy_texture (GL) failed
+09:31:34 PM.361: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.361: device_copy_texture (GL) failed
+09:31:34 PM.384: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.384: device_copy_texture (GL) failed
+09:31:34 PM.417: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.417: device_copy_texture (GL) failed
+09:31:34 PM.451: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.451: device_copy_texture (GL) failed
+09:31:34 PM.484: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.484: device_copy_texture (GL) failed
+09:31:34 PM.517: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.517: device_copy_texture (GL) failed
+09:31:34 PM.551: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.551: device_copy_texture (GL) failed
+09:31:34 PM.584: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.584: device_copy_texture (GL) failed
+09:31:34 PM.617: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.617: device_copy_texture (GL) failed
+09:31:34 PM.651: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.651: device_copy_texture (GL) failed
+09:31:34 PM.685: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.685: device_copy_texture (GL) failed
+09:31:34 PM.717: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.717: device_copy_texture (GL) failed
+09:31:34 PM.750: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.751: device_copy_texture (GL) failed
+09:31:34 PM.785: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.785: device_copy_texture (GL) failed
+09:31:34 PM.817: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.817: device_copy_texture (GL) failed
+09:31:34 PM.851: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.851: device_copy_texture (GL) failed
+09:31:34 PM.884: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.884: device_copy_texture (GL) failed
+09:31:34 PM.917: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.917: device_copy_texture (GL) failed
+09:31:34 PM.951: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.951: device_copy_texture (GL) failed
+09:31:34 PM.984: glCopyImageSubData failed, glGetError returned 0x502
+09:31:34 PM.984: device_copy_texture (GL) failed
+09:31:35 PM.017: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.017: device_copy_texture (GL) failed
+09:31:35 PM.051: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.051: device_copy_texture (GL) failed
+09:31:35 PM.084: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.084: device_copy_texture (GL) failed
+09:31:35 PM.117: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.117: device_copy_texture (GL) failed
+09:31:35 PM.151: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.151: device_copy_texture (GL) failed
+09:31:35 PM.184: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.184: device_copy_texture (GL) failed
+09:31:35 PM.217: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.217: device_copy_texture (GL) failed
+09:31:35 PM.251: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.251: device_copy_texture (GL) failed
+09:31:35 PM.284: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.284: device_copy_texture (GL) failed
+09:31:35 PM.317: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.317: device_copy_texture (GL) failed
+09:31:35 PM.350: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.351: device_copy_texture (GL) failed
+09:31:35 PM.384: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.384: device_copy_texture (GL) failed
+09:31:35 PM.417: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.417: device_copy_texture (GL) failed
+09:31:35 PM.451: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.451: device_copy_texture (GL) failed
+09:31:35 PM.484: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.484: device_copy_texture (GL) failed
+09:31:35 PM.517: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.517: device_copy_texture (GL) failed
+09:31:35 PM.551: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.551: device_copy_texture (GL) failed
+09:31:35 PM.584: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.584: device_copy_texture (GL) failed
+09:31:35 PM.617: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.617: device_copy_texture (GL) failed
+09:31:35 PM.651: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.651: device_copy_texture (GL) failed
+09:31:35 PM.684: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.684: device_copy_texture (GL) failed
+09:31:35 PM.717: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.717: device_copy_texture (GL) failed
+09:31:35 PM.751: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.751: device_copy_texture (GL) failed
+09:31:35 PM.784: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.784: device_copy_texture (GL) failed
+09:31:35 PM.817: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.817: device_copy_texture (GL) failed
+09:31:35 PM.851: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.851: device_copy_texture (GL) failed
+09:31:35 PM.884: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.884: device_copy_texture (GL) failed
+09:31:35 PM.917: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.917: device_copy_texture (GL) failed
+09:31:35 PM.951: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.951: device_copy_texture (GL) failed
+09:31:35 PM.984: glCopyImageSubData failed, glGetError returned 0x502
+09:31:35 PM.984: device_copy_texture (GL) failed
+09:31:36 PM.017: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.017: device_copy_texture (GL) failed
+09:31:36 PM.051: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.051: device_copy_texture (GL) failed
+09:31:36 PM.084: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.084: device_copy_texture (GL) failed
+09:31:36 PM.117: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.117: device_copy_texture (GL) failed
+09:31:36 PM.150: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.150: device_copy_texture (GL) failed
+09:31:36 PM.184: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.184: device_copy_texture (GL) failed
+09:31:36 PM.217: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.217: device_copy_texture (GL) failed
+09:31:36 PM.251: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.251: device_copy_texture (GL) failed
+09:31:36 PM.284: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.284: device_copy_texture (GL) failed
+09:31:36 PM.324: glCopyImageSubData failed, glGetError returned 0x502
+09:31:36 PM.324: device_copy_texture (GL) failed
+09:31:36 PM.364: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:36 PM.364: 	title: Dota 2
+09:31:36 PM.364: 	class: dota2
+09:31:36 PM.364: 	Has alpha: yes
+09:31:36 PM.364: 	Found proper GLXFBConfig: yes
+09:31:36 PM.364: 
+09:31:36 PM.565: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:36 PM.565: 	title: Dota 2
+09:31:36 PM.565: 	class: dota2
+09:31:36 PM.565: 	Has alpha: yes
+09:31:36 PM.565: 	Found proper GLXFBConfig: yes
+09:31:36 PM.565: 
+09:31:40 PM.565: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:40 PM.565: 	title: Dota 2
+09:31:40 PM.565: 	class: dota2
+09:31:40 PM.565: 	Has alpha: yes
+09:31:40 PM.565: 	Found proper GLXFBConfig: yes
+09:31:40 PM.565: 
+09:31:40 PM.761: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:31:40 PM.761: 	title: Dota 2
+09:31:40 PM.761: 	class: dota2
+09:31:40 PM.761: 	Has alpha: yes
+09:31:40 PM.761: 	Found proper GLXFBConfig: yes
+09:31:40 PM.761: 
+09:31:47 PM.468: User Removed source 'Audio Capture Device (ALSA)' (alsa_input_capture) from scene 'Scene'
+09:38:27 PM.205: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:38:27 PM.205: 	title: Dota 2
+09:38:27 PM.205: 	class: dota2
+09:38:27 PM.205: 	Has alpha: yes
+09:38:27 PM.205: 	Found proper GLXFBConfig: yes
+09:38:27 PM.205: 
+09:38:27 PM.430: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:38:27 PM.430: 	title: Dota 2
+09:38:27 PM.430: 	class: dota2
+09:38:27 PM.430: 	Has alpha: yes
+09:38:27 PM.430: 	Found proper GLXFBConfig: yes
+09:38:27 PM.430: 
+09:39:57 PM.807: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:39:57 PM.807: 	title: Dota 2
+09:39:57 PM.807: 	class: dota2
+09:39:57 PM.807: 	Has alpha: yes
+09:39:57 PM.807: 	Found proper GLXFBConfig: yes
+09:39:57 PM.807: 
+09:39:58 PM.069: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:39:58 PM.069: 	title: Dota 2
+09:39:58 PM.069: 	class: dota2
+09:39:58 PM.069: 	Has alpha: yes
+09:39:58 PM.069: 	Found proper GLXFBConfig: yes
+09:39:58 PM.069: 
+09:40:57 PM.504: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:40:57 PM.504: 	title: Dota 2
+09:40:57 PM.504: 	class: dota2
+09:40:57 PM.504: 	Has alpha: yes
+09:40:57 PM.504: 	Found proper GLXFBConfig: yes
+09:40:57 PM.504: 
+09:40:57 PM.734: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:40:57 PM.734: 	title: Dota 2
+09:40:57 PM.734: 	class: dota2
+09:40:57 PM.734: 	Has alpha: yes
+09:40:57 PM.734: 	Found proper GLXFBConfig: yes
+09:40:57 PM.734: 
+09:41:06 PM.011: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:41:06 PM.011: 	title: Dota 2
+09:41:06 PM.011: 	class: dota2
+09:41:06 PM.011: 	Has alpha: yes
+09:41:06 PM.011: 	Found proper GLXFBConfig: yes
+09:41:06 PM.011: 
+09:41:12 PM.861: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:41:12 PM.861: 	title: Dota 2
+09:41:12 PM.861: 	class: dota2
+09:41:12 PM.861: 	Has alpha: yes
+09:41:12 PM.861: 	Found proper GLXFBConfig: yes
+09:41:12 PM.861: 
+09:41:26 PM.739: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:41:26 PM.739: 	title: Dota 2
+09:41:26 PM.739: 	class: dota2
+09:41:26 PM.739: 	Has alpha: yes
+09:41:26 PM.739: 	Found proper GLXFBConfig: yes
+09:41:26 PM.739: 
+09:43:19 PM.668: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.668: 	title: Dota 2
+09:43:19 PM.668: 	class: dota2
+09:43:19 PM.668: 	Has alpha: yes
+09:43:19 PM.668: 	Found proper GLXFBConfig: yes
+09:43:19 PM.668: 
+09:43:19 PM.696: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.696: 	title: Dota 2
+09:43:19 PM.696: 	class: dota2
+09:43:19 PM.696: 	Has alpha: yes
+09:43:19 PM.696: 	Found proper GLXFBConfig: yes
+09:43:19 PM.696: 
+09:43:19 PM.733: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.733: 	title: Dota 2
+09:43:19 PM.733: 	class: dota2
+09:43:19 PM.733: 	Has alpha: yes
+09:43:19 PM.733: 	Found proper GLXFBConfig: yes
+09:43:19 PM.733: 
+09:43:19 PM.768: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.768: 	title: Dota 2
+09:43:19 PM.768: 	class: dota2
+09:43:19 PM.768: 	Has alpha: yes
+09:43:19 PM.768: 	Found proper GLXFBConfig: yes
+09:43:19 PM.768: 
+09:43:19 PM.797: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.797: 	title: Dota 2
+09:43:19 PM.797: 	class: dota2
+09:43:19 PM.797: 	Has alpha: yes
+09:43:19 PM.797: 	Found proper GLXFBConfig: yes
+09:43:19 PM.797: 
+09:43:19 PM.829: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.829: 	title: Dota 2
+09:43:19 PM.829: 	class: dota2
+09:43:19 PM.829: 	Has alpha: yes
+09:43:19 PM.829: 	Found proper GLXFBConfig: yes
+09:43:19 PM.829: 
+09:43:19 PM.861: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.861: 	title: Dota 2
+09:43:19 PM.861: 	class: dota2
+09:43:19 PM.861: 	Has alpha: yes
+09:43:19 PM.861: 	Found proper GLXFBConfig: yes
+09:43:19 PM.861: 
+09:43:19 PM.894: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.894: 	title: Dota 2
+09:43:19 PM.894: 	class: dota2
+09:43:19 PM.894: 	Has alpha: yes
+09:43:19 PM.894: 	Found proper GLXFBConfig: yes
+09:43:19 PM.894: 
+09:43:19 PM.928: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.928: 	title: Dota 2
+09:43:19 PM.928: 	class: dota2
+09:43:19 PM.928: 	Has alpha: yes
+09:43:19 PM.928: 	Found proper GLXFBConfig: yes
+09:43:19 PM.928: 
+09:43:19 PM.966: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.966: 	title: Dota 2
+09:43:19 PM.966: 	class: dota2
+09:43:19 PM.966: 	Has alpha: yes
+09:43:19 PM.966: 	Found proper GLXFBConfig: yes
+09:43:19 PM.966: 
+09:43:19 PM.995: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:19 PM.995: 	title: Dota 2
+09:43:19 PM.995: 	class: dota2
+09:43:19 PM.995: 	Has alpha: yes
+09:43:19 PM.995: 	Found proper GLXFBConfig: yes
+09:43:19 PM.995: 
+09:43:20 PM.036: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.036: 	title: Dota 2
+09:43:20 PM.036: 	class: dota2
+09:43:20 PM.036: 	Has alpha: yes
+09:43:20 PM.036: 	Found proper GLXFBConfig: yes
+09:43:20 PM.036: 
+09:43:20 PM.062: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.062: 	title: Dota 2
+09:43:20 PM.062: 	class: dota2
+09:43:20 PM.062: 	Has alpha: yes
+09:43:20 PM.062: 	Found proper GLXFBConfig: yes
+09:43:20 PM.062: 
+09:43:20 PM.098: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.098: 	title: Dota 2
+09:43:20 PM.098: 	class: dota2
+09:43:20 PM.098: 	Has alpha: yes
+09:43:20 PM.098: 	Found proper GLXFBConfig: yes
+09:43:20 PM.098: 
+09:43:20 PM.134: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.134: 	title: Dota 2
+09:43:20 PM.134: 	class: dota2
+09:43:20 PM.134: 	Has alpha: yes
+09:43:20 PM.134: 	Found proper GLXFBConfig: yes
+09:43:20 PM.134: 
+09:43:20 PM.163: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.163: 	title: Dota 2
+09:43:20 PM.163: 	class: dota2
+09:43:20 PM.163: 	Has alpha: yes
+09:43:20 PM.163: 	Found proper GLXFBConfig: yes
+09:43:20 PM.163: 
+09:43:20 PM.195: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.195: 	title: Dota 2
+09:43:20 PM.195: 	class: dota2
+09:43:20 PM.195: 	Has alpha: yes
+09:43:20 PM.195: 	Found proper GLXFBConfig: yes
+09:43:20 PM.195: 
+09:43:20 PM.236: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.236: 	title: Dota 2
+09:43:20 PM.236: 	class: dota2
+09:43:20 PM.236: 	Has alpha: yes
+09:43:20 PM.236: 	Found proper GLXFBConfig: yes
+09:43:20 PM.236: 
+09:43:20 PM.262: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.262: 	title: Dota 2
+09:43:20 PM.262: 	class: dota2
+09:43:20 PM.262: 	Has alpha: yes
+09:43:20 PM.262: 	Found proper GLXFBConfig: yes
+09:43:20 PM.262: 
+09:43:20 PM.294: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.294: 	title: Dota 2
+09:43:20 PM.294: 	class: dota2
+09:43:20 PM.294: 	Has alpha: yes
+09:43:20 PM.294: 	Found proper GLXFBConfig: yes
+09:43:20 PM.294: 
+09:43:20 PM.331: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.331: 	title: Dota 2
+09:43:20 PM.331: 	class: dota2
+09:43:20 PM.331: 	Has alpha: yes
+09:43:20 PM.331: 	Found proper GLXFBConfig: yes
+09:43:20 PM.331: 
+09:43:20 PM.372: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:43:20 PM.372: 	title: Dota 2
+09:43:20 PM.372: 	class: dota2
+09:43:20 PM.372: 	Has alpha: yes
+09:43:20 PM.372: 	Found proper GLXFBConfig: yes
+09:43:20 PM.372: 

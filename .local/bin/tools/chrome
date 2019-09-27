@@ -1,0 +1,4 @@
+#!/bin/sh
+TMPDIR=`mktemp -d /dev/shm/chrome-XXXXX`
+google-chrome-stable --user-data-dir=$TMPDIR --no-first-run --no-make-default-browser "$@"
+rm -rf $TMPDIR

@@ -17,22 +17,60 @@
 # Bookmarks:
 
 # TUI:
-ar
+al
 q0
-v2
+v1
 ov
 m-1
 l2
 r2
 
 # Left window history (oldest to newest):
+d/home/skywalker/nestaway
+	Akash_Pan.jpg
+4
 d/home/skywalker
 	Downloads
-3
+4
 d/home/skywalker/Downloads
-	The-Handmaid-s-Tale.epub
-10
-d
+	Pan Card.pdf
+18
+d/home/skywalker
+	Downloads
+4
+d/home/skywalker/Downloads
+	Niraj_EmploymentProof.jpeg
+17
+d/home/skywalker
+	nestaway
+13
+d/home/skywalker/nestaway
+	Utsav_Pan.pdf
+11
+d/home/skywalker
+	Downloads
+4
+d/home/skywalker/Downloads
+	A Story of Stories — Wait But Why.azw3
+12
+d/home/skywalker
+	Downloads
+4
+d/home/skywalker/Downloads
+	A Story of Stories — Wait But Why.azw3
+12
+d/home/skywalker
+	Downloads
+4
+d/home/skywalker/Downloads
+	Once Upon a Time in the West (1968)
+5
+d/home/skywalker/Downloads/Once Upon a Time in the West (1968)
+	Once.Upon.a.Time.in.the.West.1968.720p.BluRay.x264.YIFY.mp4
+1
+d/home/skywalker
+	Downloads
+4
 
 # Right window history (oldest to newest):
 D/home/skywalker
@@ -42,35 +80,36 @@ D/home
 	skywalker
 1
 D/home/skywalker
-	powertop.html
-10
-D
+	..
+0
 
 # Command line history (oldest to newest):
 :h
+:only
 :q
+:mkdir nestaway
+:help
 
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
+pAkash_Aadhar_front.jpg
+pAkash_Aadhar_back.jpg
+pAkash_Pan.jpg
+pUtsav_Aadhar.pdf
+pUtsav_Pan.pdf
+pVishnu_Aadhar_front.jpg
+pVishnu_Aadhar_back.jpg
+pVishnu_pan.jpg
+pVishnu_EmploymentProof.jpg
+pFaizal-EmploymentProof.jpg
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/skywalker/Downloads
-""/home/skywalker/Pictures
 
 # Directory stack (oldest to newest):
 
 # Trash content:
-
-# State:
-f
-i1
-[.1
-[F
-F
-I1
-].1
-]F
-s0
+t/home/skywalker/.local/share/vifm/Trash/000_introclassicalmusic
+	/home/skywalker/introclassicalmusic

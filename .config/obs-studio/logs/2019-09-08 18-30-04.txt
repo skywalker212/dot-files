@@ -1,0 +1,805 @@
+06:30:04 PM.843: CPU Name: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+06:30:04 PM.843: CPU Speed: 2394.395MHz
+06:30:04 PM.844: Physical Cores: 2, Logical Cores: 4
+06:30:04 PM.844: Physical Memory: 7891MB Total, 745MB Free
+06:30:04 PM.844: Kernel Version: Linux 5.2.9-arch1-1-ARCH
+06:30:04 PM.844: Distribution: "Arch Linux" Unknown
+06:30:04 PM.844: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.5
+06:30:04 PM.858: Portable mode: false
+06:30:05 PM.227: OBS 23.2.1-2 (linux)
+06:30:05 PM.227: ---------------------------------
+06:30:05 PM.227: ---------------------------------
+06:30:05 PM.227: audio settings reset:
+06:30:05 PM.227: 	samples per sec: 44100
+06:30:05 PM.227: 	speakers:        2
+06:30:05 PM.239: ---------------------------------
+06:30:05 PM.239: Initializing OpenGL...
+06:30:05 PM.291: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+06:30:05 PM.291: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 19.1.6, shading language 4.50
+06:30:05 PM.407: ---------------------------------
+06:30:05 PM.408: video settings reset:
+06:30:05 PM.408: 	base resolution:   1366x768
+06:30:05 PM.408: 	output resolution: 908x512
+06:30:05 PM.408: 	downscale filter:  Bicubic
+06:30:05 PM.408: 	fps:               30/1
+06:30:05 PM.408: 	format:            NV12
+06:30:05 PM.408: 	YUV mode:          601/Partial
+06:30:05 PM.408: NV12 texture support not available
+06:30:05 PM.408: Audio monitoring device:
+06:30:05 PM.408: 	name: Default
+06:30:05 PM.408: 	id: default
+06:30:05 PM.408: ---------------------------------
+06:30:05 PM.421: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+06:30:06 PM.522: No blackmagic support
+06:30:06 PM.562: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+06:30:06 PM.562: 
+06:30:06 PM.562: FFMPEG VAAPI supported
+06:30:06 PM.695: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+06:30:06 PM.695: 
+06:30:06 PM.695: Couldn't find VLC installation, VLC video source disabled
+06:30:06 PM.695: ---------------------------------
+06:30:06 PM.695:   Loaded Modules:
+06:30:06 PM.695:     vlc-video.so
+06:30:06 PM.695:     text-freetype2.so
+06:30:06 PM.695:     rtmp-services.so
+06:30:06 PM.695:     obs-x264.so
+06:30:06 PM.695:     obs-transitions.so
+06:30:06 PM.695:     obs-outputs.so
+06:30:06 PM.696:     obs-libfdk.so
+06:30:06 PM.696:     obs-filters.so
+06:30:06 PM.696:     obs-ffmpeg.so
+06:30:06 PM.696:     linux-v4l2.so
+06:30:06 PM.696:     linux-pulseaudio.so
+06:30:06 PM.696:     linux-jack.so
+06:30:06 PM.696:     linux-decklink.so
+06:30:06 PM.696:     linux-capture.so
+06:30:06 PM.696:     linux-alsa.so
+06:30:06 PM.696:     image-source.so
+06:30:06 PM.696:     frontend-tools.so
+06:30:06 PM.696:     decklink-ouput-ui.so
+06:30:06 PM.696: ---------------------------------
+06:30:06 PM.710: ==== Startup complete ===============================================
+06:30:06 PM.756: All scene data cleared
+06:30:06 PM.756: ------------------------------------------------
+06:30:06 PM.779: pulse-input: Server name: 'pulseaudio 12.2'
+06:30:06 PM.779: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+06:30:06 PM.780: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+06:30:06 PM.781: pulse-input: Server name: 'pulseaudio 12.2'
+06:30:06 PM.781: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+06:30:06 PM.782: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+06:30:06 PM.783: pulse-input: Server name: 'pulseaudio 12.2'
+06:30:06 PM.783: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+06:30:06 PM.783: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+06:30:06 PM.869: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:06 PM.869: 	title: Dota 2
+06:30:06 PM.869: 	class: dota2
+06:30:06 PM.869: 	Has alpha: yes
+06:30:06 PM.869: 	Found proper GLXFBConfig: yes
+06:30:06 PM.869: 
+06:30:06 PM.870: v4l2-input: Start capture from /dev/video0
+06:30:06 PM.980: v4l2-input: Input: 0
+06:30:06 PM.993: v4l2-input: Resolution: 640x480
+06:30:06 PM.993: v4l2-input: Pixelformat: VYUY
+06:30:06 PM.993: v4l2-input: Linesize: 1280 Bytes
+06:30:06 PM.993: v4l2-input: Framerate: 30.00 fps
+06:30:06 PM.997: alsa-input: Failed to open 'default': Device or resource busy
+06:30:06 PM.997: Switched to scene 'Scene'
+06:30:06 PM.998: ------------------------------------------------
+06:30:06 PM.998: Loaded scenes:
+06:30:06 PM.998: - scene 'Scene':
+06:30:07 PM.000:     - source: 'Audio Capture Device (ALSA)' (alsa_input_capture)
+06:30:07 PM.000:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+06:30:07 PM.000:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+06:30:07 PM.000: ------------------------------------------------
+06:30:07 PM.002: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.002: device_copy_texture (GL) failed
+06:30:07 PM.008: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.008: device_copy_texture (GL) failed
+06:30:07 PM.042: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.042: device_copy_texture (GL) failed
+06:30:07 PM.075: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.076: device_copy_texture (GL) failed
+06:30:07 PM.114: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.114: device_copy_texture (GL) failed
+06:30:07 PM.142: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.142: device_copy_texture (GL) failed
+06:30:07 PM.175: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.175: device_copy_texture (GL) failed
+06:30:07 PM.208: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.208: device_copy_texture (GL) failed
+06:30:07 PM.293: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.293: device_copy_texture (GL) failed
+06:30:07 PM.308: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.308: device_copy_texture (GL) failed
+06:30:07 PM.333: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+06:30:07 PM.333: 
+06:30:07 PM.342: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.342: device_copy_texture (GL) failed
+06:30:07 PM.375: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.375: device_copy_texture (GL) failed
+06:30:07 PM.492: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.492: device_copy_texture (GL) failed
+06:30:07 PM.508: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.508: device_copy_texture (GL) failed
+06:30:07 PM.542: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.542: device_copy_texture (GL) failed
+06:30:07 PM.575: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.575: device_copy_texture (GL) failed
+06:30:07 PM.608: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.608: device_copy_texture (GL) failed
+06:30:07 PM.642: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.642: device_copy_texture (GL) failed
+06:30:07 PM.675: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.675: device_copy_texture (GL) failed
+06:30:07 PM.708: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.708: device_copy_texture (GL) failed
+06:30:07 PM.742: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.742: device_copy_texture (GL) failed
+06:30:07 PM.775: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.775: device_copy_texture (GL) failed
+06:30:07 PM.808: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.808: device_copy_texture (GL) failed
+06:30:07 PM.842: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.842: device_copy_texture (GL) failed
+06:30:07 PM.878: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.878: device_copy_texture (GL) failed
+06:30:07 PM.908: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.908: device_copy_texture (GL) failed
+06:30:07 PM.942: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.942: device_copy_texture (GL) failed
+06:30:07 PM.975: glCopyImageSubData failed, glGetError returned 0x502
+06:30:07 PM.975: device_copy_texture (GL) failed
+06:30:07 PM.997: alsa-input: Failed to open 'default': Device or resource busy
+06:30:08 PM.009: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.009: device_copy_texture (GL) failed
+06:30:08 PM.042: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.042: device_copy_texture (GL) failed
+06:30:08 PM.075: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.075: device_copy_texture (GL) failed
+06:30:08 PM.108: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.108: device_copy_texture (GL) failed
+06:30:08 PM.142: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.142: device_copy_texture (GL) failed
+06:30:08 PM.175: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.175: device_copy_texture (GL) failed
+06:30:08 PM.209: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.209: device_copy_texture (GL) failed
+06:30:08 PM.242: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.242: device_copy_texture (GL) failed
+06:30:08 PM.275: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.275: device_copy_texture (GL) failed
+06:30:08 PM.308: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.308: device_copy_texture (GL) failed
+06:30:08 PM.342: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.342: device_copy_texture (GL) failed
+06:30:08 PM.375: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.376: device_copy_texture (GL) failed
+06:30:08 PM.408: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.408: device_copy_texture (GL) failed
+06:30:08 PM.442: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.442: device_copy_texture (GL) failed
+06:30:08 PM.475: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.475: device_copy_texture (GL) failed
+06:30:08 PM.508: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.508: device_copy_texture (GL) failed
+06:30:08 PM.542: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.542: device_copy_texture (GL) failed
+06:30:08 PM.575: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.575: device_copy_texture (GL) failed
+06:30:08 PM.608: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.608: device_copy_texture (GL) failed
+06:30:08 PM.642: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.642: device_copy_texture (GL) failed
+06:30:08 PM.675: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.675: device_copy_texture (GL) failed
+06:30:08 PM.708: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.708: device_copy_texture (GL) failed
+06:30:08 PM.742: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.742: device_copy_texture (GL) failed
+06:30:08 PM.776: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.776: device_copy_texture (GL) failed
+06:30:08 PM.808: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.808: device_copy_texture (GL) failed
+06:30:08 PM.842: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.842: device_copy_texture (GL) failed
+06:30:08 PM.875: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.875: device_copy_texture (GL) failed
+06:30:08 PM.908: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.908: device_copy_texture (GL) failed
+06:30:08 PM.942: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.942: device_copy_texture (GL) failed
+06:30:08 PM.975: glCopyImageSubData failed, glGetError returned 0x502
+06:30:08 PM.975: device_copy_texture (GL) failed
+06:30:09 PM.008: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.008: device_copy_texture (GL) failed
+06:30:09 PM.042: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.042: device_copy_texture (GL) failed
+06:30:09 PM.075: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.075: device_copy_texture (GL) failed
+06:30:09 PM.108: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.109: device_copy_texture (GL) failed
+06:30:09 PM.142: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.142: device_copy_texture (GL) failed
+06:30:09 PM.175: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.175: device_copy_texture (GL) failed
+06:30:09 PM.208: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.208: device_copy_texture (GL) failed
+06:30:09 PM.242: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.242: device_copy_texture (GL) failed
+06:30:09 PM.275: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.275: device_copy_texture (GL) failed
+06:30:09 PM.308: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.308: device_copy_texture (GL) failed
+06:30:09 PM.342: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.343: device_copy_texture (GL) failed
+06:30:09 PM.375: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.375: device_copy_texture (GL) failed
+06:30:09 PM.408: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.408: device_copy_texture (GL) failed
+06:30:09 PM.442: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.442: device_copy_texture (GL) failed
+06:30:09 PM.475: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.475: device_copy_texture (GL) failed
+06:30:09 PM.508: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.508: device_copy_texture (GL) failed
+06:30:09 PM.542: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.542: device_copy_texture (GL) failed
+06:30:09 PM.575: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.575: device_copy_texture (GL) failed
+06:30:09 PM.609: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.609: device_copy_texture (GL) failed
+06:30:09 PM.642: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.642: device_copy_texture (GL) failed
+06:30:09 PM.675: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.675: device_copy_texture (GL) failed
+06:30:09 PM.708: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.708: device_copy_texture (GL) failed
+06:30:09 PM.742: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.742: device_copy_texture (GL) failed
+06:30:09 PM.775: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.775: device_copy_texture (GL) failed
+06:30:09 PM.808: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.808: device_copy_texture (GL) failed
+06:30:09 PM.842: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.842: device_copy_texture (GL) failed
+06:30:09 PM.875: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.875: device_copy_texture (GL) failed
+06:30:09 PM.908: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.908: device_copy_texture (GL) failed
+06:30:09 PM.942: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.942: device_copy_texture (GL) failed
+06:30:09 PM.975: glCopyImageSubData failed, glGetError returned 0x502
+06:30:09 PM.975: device_copy_texture (GL) failed
+06:30:09 PM.998: alsa-input: Failed to open 'default': Device or resource busy
+06:30:10 PM.009: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.009: device_copy_texture (GL) failed
+06:30:10 PM.042: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.042: device_copy_texture (GL) failed
+06:30:10 PM.075: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.075: device_copy_texture (GL) failed
+06:30:10 PM.108: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.108: device_copy_texture (GL) failed
+06:30:10 PM.142: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.142: device_copy_texture (GL) failed
+06:30:10 PM.175: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.175: device_copy_texture (GL) failed
+06:30:10 PM.208: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.208: device_copy_texture (GL) failed
+06:30:10 PM.242: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.242: device_copy_texture (GL) failed
+06:30:10 PM.275: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.275: device_copy_texture (GL) failed
+06:30:10 PM.308: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.308: device_copy_texture (GL) failed
+06:30:10 PM.342: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.342: device_copy_texture (GL) failed
+06:30:10 PM.375: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.375: device_copy_texture (GL) failed
+06:30:10 PM.409: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.409: device_copy_texture (GL) failed
+06:30:10 PM.442: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.442: device_copy_texture (GL) failed
+06:30:10 PM.475: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.475: device_copy_texture (GL) failed
+06:30:10 PM.508: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.509: device_copy_texture (GL) failed
+06:30:10 PM.542: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.542: device_copy_texture (GL) failed
+06:30:10 PM.575: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.575: device_copy_texture (GL) failed
+06:30:10 PM.608: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.608: device_copy_texture (GL) failed
+06:30:10 PM.642: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.642: device_copy_texture (GL) failed
+06:30:10 PM.675: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.675: device_copy_texture (GL) failed
+06:30:10 PM.708: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.708: device_copy_texture (GL) failed
+06:30:10 PM.742: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.742: device_copy_texture (GL) failed
+06:30:10 PM.776: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.776: device_copy_texture (GL) failed
+06:30:10 PM.808: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.808: device_copy_texture (GL) failed
+06:30:10 PM.842: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.842: device_copy_texture (GL) failed
+06:30:10 PM.875: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.875: device_copy_texture (GL) failed
+06:30:10 PM.908: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.908: device_copy_texture (GL) failed
+06:30:10 PM.942: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.942: device_copy_texture (GL) failed
+06:30:10 PM.975: glCopyImageSubData failed, glGetError returned 0x502
+06:30:10 PM.975: device_copy_texture (GL) failed
+06:30:11 PM.008: glCopyImageSubData failed, glGetError returned 0x502
+06:30:11 PM.008: device_copy_texture (GL) failed
+06:30:11 PM.042: glCopyImageSubData failed, glGetError returned 0x502
+06:30:11 PM.042: device_copy_texture (GL) failed
+06:30:11 PM.075: glCopyImageSubData failed, glGetError returned 0x502
+06:30:11 PM.075: device_copy_texture (GL) failed
+06:30:11 PM.108: glCopyImageSubData failed, glGetError returned 0x502
+06:30:11 PM.108: device_copy_texture (GL) failed
+06:30:11 PM.142: glCopyImageSubData failed, glGetError returned 0x502
+06:30:11 PM.142: device_copy_texture (GL) failed
+06:30:11 PM.175: glCopyImageSubData failed, glGetError returned 0x502
+06:30:11 PM.175: device_copy_texture (GL) failed
+06:30:11 PM.208: glCopyImageSubData failed, glGetError returned 0x502
+06:30:11 PM.209: device_copy_texture (GL) failed
+06:30:11 PM.242: glCopyImageSubData failed, glGetError returned 0x502
+06:30:11 PM.242: device_copy_texture (GL) failed
+06:30:11 PM.294: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:11 PM.294: 	title: Dota 2
+06:30:11 PM.294: 	class: dota2
+06:30:11 PM.294: 	Has alpha: yes
+06:30:11 PM.294: 	Found proper GLXFBConfig: yes
+06:30:11 PM.294: 
+06:30:12 PM.998: alsa-input: Failed to open 'default': Device or resource busy
+06:30:16 PM.998: alsa-input: Failed to open 'default': Device or resource busy
+06:30:17 PM.650: ---------------------------------
+06:30:17 PM.650: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+06:30:17 PM.673: [x264 encoder: 'simple_h264_stream'] settings:
+06:30:17 PM.673: 	rate_control: CBR
+06:30:17 PM.673: 	bitrate:      1376
+06:30:17 PM.673: 	buffer size:  1376
+06:30:17 PM.673: 	crf:          0
+06:30:17 PM.673: 	fps_num:      30
+06:30:17 PM.673: 	fps_den:      1
+06:30:17 PM.673: 	width:        908
+06:30:17 PM.673: 	height:       512
+06:30:17 PM.673: 	keyint:       60
+06:30:17 PM.673: 
+06:30:17 PM.673: [x264 encoder: 'simple_h264_stream'] custom settings: scenecut=0
+06:30:17 PM.731: libfdk_aac encoder created
+06:30:17 PM.731: libfdk_aac bitrate: 160, channels: 2
+06:30:17 PM.731: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-sin.twitch.tv/app...
+06:30:21 PM.998: alsa-input: Failed to open 'default': Device or resource busy
+06:30:23 PM.354: [rtmp-services plugin] Successfully updated file 'services.json' (version 112)
+06:30:23 PM.354: [rtmp-services plugin] Successfully updated package (version 112)
+06:30:24 PM.856: [rtmp stream: 'simple_stream'] Connection to rtmp://live-sin.twitch.tv/app successful
+06:30:24 PM.885: ==== Streaming Start ===============================================
+06:30:26 PM.991: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:26 PM.991: 	title: Dota 2
+06:30:26 PM.991: 	class: dota2
+06:30:26 PM.991: 	Has alpha: yes
+06:30:26 PM.991: 	Found proper GLXFBConfig: yes
+06:30:26 PM.991: 
+06:30:26 PM.999: alsa-input: Failed to open 'default': Device or resource busy
+06:30:31 PM.999: alsa-input: Failed to open 'default': Device or resource busy
+06:30:34 PM.020: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.020: 	title: Dota 2
+06:30:34 PM.020: 	class: dota2
+06:30:34 PM.020: 	Has alpha: yes
+06:30:34 PM.020: 	Found proper GLXFBConfig: yes
+06:30:34 PM.020: 
+06:30:34 PM.052: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.052: 	title: Dota 2
+06:30:34 PM.052: 	class: dota2
+06:30:34 PM.052: 	Has alpha: yes
+06:30:34 PM.052: 	Found proper GLXFBConfig: yes
+06:30:34 PM.052: 
+06:30:34 PM.088: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.088: 	title: Dota 2
+06:30:34 PM.088: 	class: dota2
+06:30:34 PM.088: 	Has alpha: yes
+06:30:34 PM.088: 	Found proper GLXFBConfig: yes
+06:30:34 PM.088: 
+06:30:34 PM.124: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.124: 	title: Dota 2
+06:30:34 PM.124: 	class: dota2
+06:30:34 PM.124: 	Has alpha: yes
+06:30:34 PM.124: 	Found proper GLXFBConfig: yes
+06:30:34 PM.124: 
+06:30:34 PM.149: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.149: 	title: Dota 2
+06:30:34 PM.149: 	class: dota2
+06:30:34 PM.149: 	Has alpha: yes
+06:30:34 PM.149: 	Found proper GLXFBConfig: yes
+06:30:34 PM.149: 
+06:30:34 PM.184: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.184: 	title: Dota 2
+06:30:34 PM.184: 	class: dota2
+06:30:34 PM.184: 	Has alpha: yes
+06:30:34 PM.184: 	Found proper GLXFBConfig: yes
+06:30:34 PM.184: 
+06:30:34 PM.219: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.219: 	title: Dota 2
+06:30:34 PM.219: 	class: dota2
+06:30:34 PM.219: 	Has alpha: yes
+06:30:34 PM.219: 	Found proper GLXFBConfig: yes
+06:30:34 PM.219: 
+06:30:34 PM.250: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.250: 	title: Dota 2
+06:30:34 PM.250: 	class: dota2
+06:30:34 PM.250: 	Has alpha: yes
+06:30:34 PM.250: 	Found proper GLXFBConfig: yes
+06:30:34 PM.250: 
+06:30:34 PM.284: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.284: 	title: Dota 2
+06:30:34 PM.284: 	class: dota2
+06:30:34 PM.284: 	Has alpha: yes
+06:30:34 PM.284: 	Found proper GLXFBConfig: yes
+06:30:34 PM.284: 
+06:30:34 PM.318: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.318: 	title: Dota 2
+06:30:34 PM.318: 	class: dota2
+06:30:34 PM.318: 	Has alpha: yes
+06:30:34 PM.318: 	Found proper GLXFBConfig: yes
+06:30:34 PM.318: 
+06:30:34 PM.358: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.358: 	title: Dota 2
+06:30:34 PM.358: 	class: dota2
+06:30:34 PM.358: 	Has alpha: yes
+06:30:34 PM.358: 	Found proper GLXFBConfig: yes
+06:30:34 PM.358: 
+06:30:34 PM.390: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.390: 	title: Dota 2
+06:30:34 PM.390: 	class: dota2
+06:30:34 PM.390: 	Has alpha: yes
+06:30:34 PM.390: 	Found proper GLXFBConfig: yes
+06:30:34 PM.390: 
+06:30:34 PM.422: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.422: 	title: Dota 2
+06:30:34 PM.422: 	class: dota2
+06:30:34 PM.422: 	Has alpha: yes
+06:30:34 PM.422: 	Found proper GLXFBConfig: yes
+06:30:34 PM.422: 
+06:30:34 PM.458: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.458: 	title: Dota 2
+06:30:34 PM.458: 	class: dota2
+06:30:34 PM.458: 	Has alpha: yes
+06:30:34 PM.458: 	Found proper GLXFBConfig: yes
+06:30:34 PM.458: 
+06:30:34 PM.491: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.491: 	title: Dota 2
+06:30:34 PM.491: 	class: dota2
+06:30:34 PM.491: 	Has alpha: yes
+06:30:34 PM.491: 	Found proper GLXFBConfig: yes
+06:30:34 PM.491: 
+06:30:34 PM.534: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.534: 	title: Dota 2
+06:30:34 PM.534: 	class: dota2
+06:30:34 PM.534: 	Has alpha: yes
+06:30:34 PM.534: 	Found proper GLXFBConfig: yes
+06:30:34 PM.534: 
+06:30:34 PM.561: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.561: 	title: Dota 2
+06:30:34 PM.561: 	class: dota2
+06:30:34 PM.561: 	Has alpha: yes
+06:30:34 PM.561: 	Found proper GLXFBConfig: yes
+06:30:34 PM.561: 
+06:30:34 PM.595: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.595: 	title: Dota 2
+06:30:34 PM.595: 	class: dota2
+06:30:34 PM.595: 	Has alpha: yes
+06:30:34 PM.595: 	Found proper GLXFBConfig: yes
+06:30:34 PM.595: 
+06:30:34 PM.647: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.647: 	title: Dota 2
+06:30:34 PM.647: 	class: dota2
+06:30:34 PM.647: 	Has alpha: yes
+06:30:34 PM.647: 	Found proper GLXFBConfig: yes
+06:30:34 PM.647: 
+06:30:34 PM.680: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.680: 	title: Dota 2
+06:30:34 PM.680: 	class: dota2
+06:30:34 PM.680: 	Has alpha: yes
+06:30:34 PM.680: 	Found proper GLXFBConfig: yes
+06:30:34 PM.680: 
+06:30:34 PM.713: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.713: 	title: Dota 2
+06:30:34 PM.713: 	class: dota2
+06:30:34 PM.713: 	Has alpha: yes
+06:30:34 PM.713: 	Found proper GLXFBConfig: yes
+06:30:34 PM.713: 
+06:30:34 PM.743: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.743: 	title: Dota 2
+06:30:34 PM.743: 	class: dota2
+06:30:34 PM.743: 	Has alpha: yes
+06:30:34 PM.743: 	Found proper GLXFBConfig: yes
+06:30:34 PM.743: 
+06:30:34 PM.771: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.771: 	title: Dota 2
+06:30:34 PM.771: 	class: dota2
+06:30:34 PM.771: 	Has alpha: yes
+06:30:34 PM.771: 	Found proper GLXFBConfig: yes
+06:30:34 PM.771: 
+06:30:34 PM.796: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.796: 	title: Dota 2
+06:30:34 PM.796: 	class: dota2
+06:30:34 PM.796: 	Has alpha: yes
+06:30:34 PM.796: 	Found proper GLXFBConfig: yes
+06:30:34 PM.796: 
+06:30:34 PM.822: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.822: 	title: Dota 2
+06:30:34 PM.822: 	class: dota2
+06:30:34 PM.822: 	Has alpha: yes
+06:30:34 PM.822: 	Found proper GLXFBConfig: yes
+06:30:34 PM.822: 
+06:30:34 PM.857: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.857: 	title: Dota 2
+06:30:34 PM.857: 	class: dota2
+06:30:34 PM.857: 	Has alpha: yes
+06:30:34 PM.857: 	Found proper GLXFBConfig: yes
+06:30:34 PM.857: 
+06:30:34 PM.894: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.894: 	title: Dota 2
+06:30:34 PM.894: 	class: dota2
+06:30:34 PM.894: 	Has alpha: yes
+06:30:34 PM.894: 	Found proper GLXFBConfig: yes
+06:30:34 PM.894: 
+06:30:34 PM.929: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.929: 	title: Dota 2
+06:30:34 PM.929: 	class: dota2
+06:30:34 PM.929: 	Has alpha: yes
+06:30:34 PM.929: 	Found proper GLXFBConfig: yes
+06:30:34 PM.929: 
+06:30:34 PM.952: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.952: 	title: Dota 2
+06:30:34 PM.952: 	class: dota2
+06:30:34 PM.952: 	Has alpha: yes
+06:30:34 PM.952: 	Found proper GLXFBConfig: yes
+06:30:34 PM.952: 
+06:30:34 PM.991: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:34 PM.991: 	title: Dota 2
+06:30:34 PM.991: 	class: dota2
+06:30:34 PM.991: 	Has alpha: yes
+06:30:34 PM.991: 	Found proper GLXFBConfig: yes
+06:30:34 PM.991: 
+06:30:35 PM.030: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:35 PM.030: 	title: Dota 2
+06:30:35 PM.030: 	class: dota2
+06:30:35 PM.030: 	Has alpha: yes
+06:30:35 PM.030: 	Found proper GLXFBConfig: yes
+06:30:35 PM.030: 
+06:30:36 PM.999: Last log entry repeated for 24 more lines
+06:30:36 PM.999: alsa-input: Failed to open 'default': Device or resource busy
+06:30:42 PM.000: alsa-input: Failed to open 'default': Device or resource busy
+06:30:42 PM.921: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:42 PM.921: 	title: Dota 2
+06:30:42 PM.921: 	class: dota2
+06:30:42 PM.921: 	Has alpha: yes
+06:30:42 PM.921: 	Found proper GLXFBConfig: yes
+06:30:42 PM.921: 
+06:30:44 PM.122: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:44 PM.122: 	title: Dota 2
+06:30:44 PM.122: 	class: dota2
+06:30:44 PM.122: 	Has alpha: yes
+06:30:44 PM.122: 	Found proper GLXFBConfig: yes
+06:30:44 PM.122: 
+06:30:47 PM.000: alsa-input: Failed to open 'default': Device or resource busy
+06:30:52 PM.000: alsa-input: Failed to open 'default': Device or resource busy
+06:30:52 PM.121: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:52 PM.121: 	title: Dota 2
+06:30:52 PM.121: 	class: dota2
+06:30:52 PM.121: 	Has alpha: yes
+06:30:52 PM.121: 	Found proper GLXFBConfig: yes
+06:30:52 PM.121: 
+06:30:52 PM.323: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:30:52 PM.323: 	title: Dota 2
+06:30:52 PM.323: 	class: dota2
+06:30:52 PM.323: 	Has alpha: yes
+06:30:52 PM.323: 	Found proper GLXFBConfig: yes
+06:30:52 PM.323: 
+06:30:57 PM.001: alsa-input: Failed to open 'default': Device or resource busy
+06:31:02 PM.001: alsa-input: Failed to open 'default': Device or resource busy
+06:31:02 PM.552: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:31:02 PM.552: 	title: Dota 2
+06:31:02 PM.552: 	class: dota2
+06:31:02 PM.552: 	Has alpha: yes
+06:31:02 PM.552: 	Found proper GLXFBConfig: yes
+06:31:02 PM.552: 
+06:31:02 PM.722: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:31:02 PM.722: 	title: Dota 2
+06:31:02 PM.722: 	class: dota2
+06:31:02 PM.722: 	Has alpha: yes
+06:31:02 PM.722: 	Found proper GLXFBConfig: yes
+06:31:02 PM.722: 
+06:31:07 PM.001: alsa-input: Failed to open 'default': Device or resource busy
+06:31:12 PM.002: alsa-input: Failed to open 'default': Device or resource busy
+06:31:17 PM.002: alsa-input: Failed to open 'default': Device or resource busy
+06:31:22 PM.003: alsa-input: Failed to open 'default': Device or resource busy
+06:31:27 PM.004: alsa-input: Failed to open 'default': Device or resource busy
+06:31:32 PM.004: alsa-input: Failed to open 'default': Device or resource busy
+06:31:37 PM.005: alsa-input: Failed to open 'default': Device or resource busy
+06:31:42 PM.005: alsa-input: Failed to open 'default': Device or resource busy
+06:31:46 PM.502: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mic/Aux)
+06:31:46 PM.502: 
+06:31:47 PM.005: alsa-input: Failed to open 'default': Device or resource busy
+06:31:52 PM.006: alsa-input: Failed to open 'default': Device or resource busy
+06:31:57 PM.006: alsa-input: Failed to open 'default': Device or resource busy
+06:32:02 PM.006: alsa-input: Failed to open 'default': Device or resource busy
+06:32:07 PM.007: alsa-input: Failed to open 'default': Device or resource busy
+06:32:11 PM.023: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:32:11 PM.023: 	title: Dota 2
+06:32:11 PM.023: 	class: dota2
+06:32:11 PM.023: 	Has alpha: yes
+06:32:11 PM.023: 	Found proper GLXFBConfig: yes
+06:32:11 PM.023: 
+06:32:11 PM.183: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:32:11 PM.183: 	title: Dota 2
+06:32:11 PM.183: 	class: dota2
+06:32:11 PM.183: 	Has alpha: yes
+06:32:11 PM.183: 	Found proper GLXFBConfig: yes
+06:32:11 PM.183: 
+06:32:12 PM.008: alsa-input: Failed to open 'default': Device or resource busy
+06:32:17 PM.008: alsa-input: Failed to open 'default': Device or resource busy
+06:32:22 PM.009: alsa-input: Failed to open 'default': Device or resource busy
+06:32:27 PM.010: alsa-input: Failed to open 'default': Device or resource busy
+06:32:32 PM.010: alsa-input: Failed to open 'default': Device or resource busy
+06:32:37 PM.011: alsa-input: Failed to open 'default': Device or resource busy
+06:32:42 PM.012: alsa-input: Failed to open 'default': Device or resource busy
+06:32:47 PM.014: alsa-input: Failed to open 'default': Device or resource busy
+06:32:52 PM.014: alsa-input: Failed to open 'default': Device or resource busy
+06:32:57 PM.015: alsa-input: Failed to open 'default': Device or resource busy
+06:33:02 PM.016: alsa-input: Failed to open 'default': Device or resource busy
+06:33:07 PM.019: alsa-input: Failed to open 'default': Device or resource busy
+06:33:12 PM.022: alsa-input: Failed to open 'default': Device or resource busy
+06:33:17 PM.022: alsa-input: Failed to open 'default': Device or resource busy
+06:33:22 PM.023: alsa-input: Failed to open 'default': Device or resource busy
+06:33:27 PM.023: alsa-input: Failed to open 'default': Device or resource busy
+06:33:32 PM.024: alsa-input: Failed to open 'default': Device or resource busy
+06:33:37 PM.025: alsa-input: Failed to open 'default': Device or resource busy
+06:33:42 PM.027: alsa-input: Failed to open 'default': Device or resource busy
+06:33:47 PM.028: alsa-input: Failed to open 'default': Device or resource busy
+06:33:52 PM.029: alsa-input: Failed to open 'default': Device or resource busy
+06:33:57 PM.029: alsa-input: Failed to open 'default': Device or resource busy
+06:34:02 PM.029: alsa-input: Failed to open 'default': Device or resource busy
+06:34:07 PM.030: alsa-input: Failed to open 'default': Device or resource busy
+06:34:12 PM.031: alsa-input: Failed to open 'default': Device or resource busy
+06:34:17 PM.032: alsa-input: Failed to open 'default': Device or resource busy
+06:34:22 PM.032: alsa-input: Failed to open 'default': Device or resource busy
+06:34:27 PM.033: alsa-input: Failed to open 'default': Device or resource busy
+06:34:32 PM.034: alsa-input: Failed to open 'default': Device or resource busy
+06:34:37 PM.034: alsa-input: Failed to open 'default': Device or resource busy
+06:34:40 PM.855: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:34:40 PM.855: 	title: Dota 2
+06:34:40 PM.855: 	class: dota2
+06:34:40 PM.855: 	Has alpha: yes
+06:34:40 PM.855: 	Found proper GLXFBConfig: yes
+06:34:40 PM.855: 
+06:34:42 PM.035: alsa-input: Failed to open 'default': Device or resource busy
+06:34:47 PM.035: alsa-input: Failed to open 'default': Device or resource busy
+06:34:52 PM.036: alsa-input: Failed to open 'default': Device or resource busy
+06:34:57 PM.036: alsa-input: Failed to open 'default': Device or resource busy
+06:35:02 PM.037: alsa-input: Failed to open 'default': Device or resource busy
+06:35:07 PM.038: alsa-input: Failed to open 'default': Device or resource busy
+06:35:12 PM.039: alsa-input: Failed to open 'default': Device or resource busy
+06:35:17 PM.039: alsa-input: Failed to open 'default': Device or resource busy
+06:35:22 PM.040: alsa-input: Failed to open 'default': Device or resource busy
+06:35:27 PM.040: alsa-input: Failed to open 'default': Device or resource busy
+06:35:32 PM.041: alsa-input: Failed to open 'default': Device or resource busy
+06:35:37 PM.042: alsa-input: Failed to open 'default': Device or resource busy
+06:35:42 PM.046: alsa-input: Failed to open 'default': Device or resource busy
+06:35:47 PM.046: alsa-input: Failed to open 'default': Device or resource busy
+06:35:49 PM.707: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: Mic/Aux)
+06:35:49 PM.707: 
+06:35:52 PM.047: alsa-input: Failed to open 'default': Device or resource busy
+06:35:57 PM.048: alsa-input: Failed to open 'default': Device or resource busy
+06:36:02 PM.048: alsa-input: Failed to open 'default': Device or resource busy
+06:36:07 PM.051: alsa-input: Failed to open 'default': Device or resource busy
+06:36:12 PM.051: alsa-input: Failed to open 'default': Device or resource busy
+06:36:17 PM.052: alsa-input: Failed to open 'default': Device or resource busy
+06:36:22 PM.052: alsa-input: Failed to open 'default': Device or resource busy
+06:36:27 PM.053: alsa-input: Failed to open 'default': Device or resource busy
+06:36:32 PM.053: alsa-input: Failed to open 'default': Device or resource busy
+06:36:37 PM.054: alsa-input: Failed to open 'default': Device or resource busy
+06:36:42 PM.054: alsa-input: Failed to open 'default': Device or resource busy
+06:36:47 PM.054: alsa-input: Failed to open 'default': Device or resource busy
+06:36:52 PM.055: alsa-input: Failed to open 'default': Device or resource busy
+06:36:57 PM.055: alsa-input: Failed to open 'default': Device or resource busy
+06:37:02 PM.056: alsa-input: Failed to open 'default': Device or resource busy
+06:37:07 PM.056: alsa-input: Failed to open 'default': Device or resource busy
+06:37:12 PM.057: alsa-input: Failed to open 'default': Device or resource busy
+06:37:17 PM.059: alsa-input: Failed to open 'default': Device or resource busy
+06:37:22 PM.062: alsa-input: Failed to open 'default': Device or resource busy
+06:37:27 PM.062: alsa-input: Failed to open 'default': Device or resource busy
+06:37:32 PM.064: alsa-input: Failed to open 'default': Device or resource busy
+06:37:37 PM.064: alsa-input: Failed to open 'default': Device or resource busy
+06:37:42 PM.064: alsa-input: Failed to open 'default': Device or resource busy
+06:37:43 PM.900: ==== Shutting down ==================================================
+06:37:43 PM.904: Switched to scene '(null)'
+06:37:47 PM.065: alsa-input: Failed to open '`': Device or resource busy
+06:37:47 PM.086: v4l2-input: Stopped capture after 13834 frames
+06:37:47 PM.436: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+06:37:47 PM.436: pulse-input: Got 0 packets with 0 frames
+06:37:47 PM.436: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+06:37:47 PM.436: pulse-input: Got 0 packets with 0 frames
+06:37:47 PM.437: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+06:37:47 PM.437: pulse-input: Got 45819 packets with 22111064 frames
+06:37:47 PM.437: All scene data cleared
+06:37:47 PM.437: ------------------------------------------------
+06:37:47 PM.438: [rtmp stream: 'simple_stream'] User stopped the stream
+06:37:47 PM.438: Output 'simple_stream': stopping
+06:37:47 PM.438: Output 'simple_stream': Total frames output: 12972 (13250 attempted)
+06:37:47 PM.438: Output 'simple_stream': Total drawn frames: 13484 (13491 attempted)
+06:37:47 PM.438: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 7 (0.1%)
+06:37:47 PM.438: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 278 (2.1%)
+06:37:47 PM.446: libfdk_aac encoder destroyed
+06:37:47 PM.515: Freeing OBS context data
+06:37:47 PM.538: [Scripting] Total detached callbacks: 0
+06:37:47 PM.553: == Profiler Results =============================
+06:37:47 PM.553: run_program_init: 3065.84 ms
+06:37:47 PM.553:  ┣OBSApp::AppInit: 78.793 ms
+06:37:47 PM.553:  ┃ ┗OBSApp::InitLocale: 30.851 ms
+06:37:47 PM.553:  ┗OBSApp::OBSInit: 2363.85 ms
+06:37:47 PM.553:    ┣obs_startup: 28.627 ms
+06:37:47 PM.553:    ┗OBSBasic::OBSInit: 1966.23 ms
+06:37:47 PM.553:      ┣OBSBasic::InitBasicConfig: 0.079 ms
+06:37:47 PM.553:      ┣OBSBasic::ResetAudio: 0.137 ms
+06:37:47 PM.553:      ┣OBSBasic::ResetVideo: 180.335 ms
+06:37:47 PM.553:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+06:37:47 PM.553:      ┣OBSBasic::InitHotkeys: 0.046 ms
+06:37:47 PM.553:      ┣obs_load_all_modules: 1287.37 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.764 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(frontend-tools.so): 1001.18 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(linux-capture.so): 0.576 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(linux-decklink.so): 0.155 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(linux-jack.so): 0.003 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.003 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(linux-v4l2.so): 0.003 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.326 ms
+06:37:47 PM.553:      ┃ ┃ ┗nvenc_check: 0.292 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(obs-filters.so): 0.01 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(obs-transitions.so): 0.007 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(rtmp-services.so): 46.067 ms
+06:37:47 PM.553:      ┃ ┣obs_init_module(text-freetype2.so): 0.024 ms
+06:37:47 PM.553:      ┃ ┗obs_init_module(vlc-video.so): 0.19 ms
+06:37:47 PM.553:      ┣OBSBasic::ResetOutputs: 9.951 ms
+06:37:47 PM.553:      ┣OBSBasic::CreateHotkeys: 0.059 ms
+06:37:47 PM.553:      ┣OBSBasic::InitService: 34.914 ms
+06:37:47 PM.553:      ┣OBSBasic::InitPrimitives: 0.147 ms
+06:37:47 PM.553:      ┗OBSBasic::Load: 292.497 ms
+06:37:47 PM.553: obs_hotkey_thread(25 ms): min=0.08 ms, median=0.392 ms, max=60.095 ms, 99th percentile=4.937 ms, 99.9775% below 25 ms
+06:37:47 PM.553: audio_thread(Audio): min=0 ms, median=0.906 ms, max=107.921 ms, 99th percentile=3.964 ms
+06:37:47 PM.553:  ┗receive_audio: min=0.001 ms, median=0.706 ms, max=17.734 ms, 99th percentile=2.871 ms
+06:37:47 PM.553:    ┣buffer_audio: min=0 ms, median=0.002 ms, max=1.232 ms, 99th percentile=0.013 ms
+06:37:47 PM.553:    ┗do_encode: min=0.253 ms, median=0.694 ms, max=17.717 ms, 99th percentile=2.803 ms
+06:37:47 PM.553:      ┗encode(simple_aac): min=0.246 ms, median=0.644 ms, max=17.657 ms, 99th percentile=2.236 ms
+06:37:47 PM.554: obs_graphics_thread(33.3333 ms): min=0.046 ms, median=6.07 ms, max=193.919 ms, 99th percentile=18.439 ms, 99.805% below 33.333 ms
+06:37:47 PM.554:  ┣tick_sources: min=0 ms, median=0.73 ms, max=189.19 ms, 99th percentile=4.418 ms
+06:37:47 PM.554:  ┣output_frame: min=0.042 ms, median=2.695 ms, max=113.716 ms, 99th percentile=9.09 ms
+06:37:47 PM.554:  ┃ ┣gs_context(video->graphics): min=0.041 ms, median=1.462 ms, max=113.715 ms, 99th percentile=4.567 ms
+06:37:47 PM.554:  ┃ ┃ ┣render_video: min=0.025 ms, median=1.316 ms, max=111.91 ms, 99th percentile=4.224 ms
+06:37:47 PM.554:  ┃ ┃ ┃ ┣render_main_texture: min=0.02 ms, median=1.163 ms, max=111.905 ms, 99th percentile=3.678 ms
+06:37:47 PM.554:  ┃ ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.048 ms, max=79.675 ms, 99th percentile=0.528 ms
+06:37:47 PM.554:  ┃ ┃ ┃ ┣render_convert_texture: min=0.002 ms, median=0.044 ms, max=11.532 ms, 99th percentile=0.492 ms
+06:37:47 PM.554:  ┃ ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.022 ms, max=2.899 ms, 99th percentile=0.219 ms
+06:37:47 PM.554:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.071 ms, max=8.871 ms, 99th percentile=0.659 ms
+06:37:47 PM.554:  ┃ ┃ ┗download_frame: min=0 ms, median=0.004 ms, max=0.791 ms, 99th percentile=0.049 ms
+06:37:47 PM.555:  ┃ ┗output_video_data: min=0.137 ms, median=1.042 ms, max=18.503 ms, 99th percentile=6.368 ms
+06:37:47 PM.555:  ┗render_displays: min=0.002 ms, median=1.917 ms, max=84.321 ms, 99th percentile=10.83 ms
+06:37:47 PM.555: video_thread(video): min=0.665 ms, median=1.81 ms, max=56.881 ms, 99th percentile=7.701 ms
+06:37:47 PM.555:  ┗receive_video: min=0.663 ms, median=1.794 ms, max=56.88 ms, 99th percentile=7.616 ms
+06:37:47 PM.555:    ┗do_encode: min=0.662 ms, median=1.788 ms, max=56.877 ms, 99th percentile=7.613 ms
+06:37:47 PM.555:      ┗encode(simple_h264_stream): min=0.594 ms, median=1.701 ms, max=56.849 ms, 99th percentile=6.554 ms
+06:37:47 PM.555: =================================================
+06:37:47 PM.555: == Profiler Time Between Calls ==================
+06:37:47 PM.555: obs_hotkey_thread(25 ms): min=25.142 ms, median=25.593 ms, max=85.227 ms, 43.3318% within ±2% of 25 ms (0% lower, 56.6682% higher)
+06:37:47 PM.555: obs_graphics_thread(33.3333 ms): min=6.061 ms, median=33.333 ms, max=193.925 ms, 94.8946% within ±2% of 33.333 ms (2.5491% lower, 2.55633% higher)
+06:37:47 PM.555: =================================================
+06:37:47 PM.753: Number of memory leaks: 1
