@@ -22,6 +22,48 @@ My i3wm dotfiles generated while configuring newly-installed i3-gaps. Nifty litt
         {
         "before": ["<C-n>"],
         "commands": [":nohl"]
+        },
+        {
+            "before": ["<leader>", "s"],
+            "commands": [
+                ":w"
+            ]
+        },
+        {
+            "before": ["<leader>", "w"],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": ["<leader>", "t"],
+            "commands": [
+                "workbench.action.terminal.new"
+            ]
+        },
+        {
+            "before": ["<leader>", "h"],
+            "commands": [
+                "workbench.action.previousEditor"
+            ] 
+        },
+        {
+            "before": ["<leader>", "l"],
+            "commands": [
+                "workbench.action.nextEditor"
+            ] 
+        },
+        {
+            "before": ["<leader>", "j"],
+            "commands": [
+                "workbench.action.openNextRecentlyUsedEditorInGroup"
+            ] 
+        },
+        {
+            "before": ["<leader>", "k"],
+            "commands": [
+                "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+            ] 
         }
     ],
     "vim.leader": "<space>",
@@ -33,4 +75,4 @@ My i3wm dotfiles generated while configuring newly-installed i3-gaps. Nifty litt
     },
     "vim.highlightedyank.enable": true,
     "window.enableMenuBarMnemonics": false
-  }
+}
