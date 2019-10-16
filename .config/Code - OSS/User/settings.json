@@ -69,5 +69,8 @@
         "<C-b>": false
     },
     "vim.highlightedyank.enable": true,
-    "window.enableMenuBarMnemonics": false
+    "window.enableMenuBarMnemonics": false,
+    "editor.wordWrap": "on",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.lineNumbers": "relative"
 }
