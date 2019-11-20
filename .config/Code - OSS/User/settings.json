@@ -59,6 +59,12 @@
             "commands": [
                 "workbench.action.openPreviousRecentlyUsedEditorInGroup"
             ] 
+        },
+        {
+            "before": ["<leader>", "p"],
+            "commands": [
+                "workbench.action.keepEditor"
+            ]
         }
     ],
     "vim.leader": "<space>",
@@ -66,5 +72,11 @@
         "<C-b>": false
     },
     "vim.highlightedyank.enable": true,
-    "window.enableMenuBarMnemonics": false
+    "window.enableMenuBarMnemonics": false,
+    "editor.wordWrap": "on",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "terminal.integrated.rendererType": "dom",
 }
