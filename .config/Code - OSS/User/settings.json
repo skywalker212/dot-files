@@ -63,9 +63,6 @@
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
-        "<C-j>": false,
-        "<C-a>": false,
-        "<C-f>": false,
         "<C-b>": false
     },
     "vim.highlightedyank.enable": true,
