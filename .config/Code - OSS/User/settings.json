@@ -79,4 +79,5 @@
     "editor.minimap.enabled": false,
     "editor.parameterHints.enabled": false,
     "terminal.integrated.rendererType": "dom",
+     "editor.occurrencesHighlight": false
 }
