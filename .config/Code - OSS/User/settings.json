@@ -65,6 +65,14 @@
             "commands": [
                 "workbench.action.keepEditor"
             ]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["<C-y>"]
+        },
+        {
+            "before": ["<C-j>"],
+            "after": ["<C-e>"]
         }
     ],
     "vim.leader": "<space>",
