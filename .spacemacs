@@ -48,24 +48,23 @@ This function should only modify configuration layer settings."
      javascript
      ;; multiple-cursors
      org
-     ;;(shell :variables
-     ;;       shell-default-height 30
-     ;;       shell-default-position 'bottom)
+     shell
      ;; spell-checking
      syntax-checking
-     ;; version-control
+     (version-control :variables
+                      version-control-diff-tool 'git-gutter)
      ;; treemacs
      (spacemacs-project :variables
                         projectile-indexing-method 'alien
                         projectile-enable-caching t
                         projectile-globally-ignored-directories '("node_modules" "dist")
                         projectile-git-submodule-command nil)
-     (go :variables
-         go-backend 'go-mode
-         go-tab-width 2
-         go-format-before-save t
-         go-use-golangci-lint t)
      )
+    (go :variables
+        go-backend 'go-mode
+        go-tab-width 2
+        go-format-before-save t
+        go-use-golangci-lint t)
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
@@ -210,7 +209,8 @@ It should only modify the values of Spacemacs settings."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press `SPC T n' to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(spacemacs-dark
+   dotspacemacs-themes '(cyberpunk
+                         spacemacs-dark
                          spacemacs-light)
 
    ;; Set the theme for the Spaceline. Supported themes are `spacemacs',
@@ -382,7 +382,7 @@ It should only modify the values of Spacemacs settings."
    ;;   :size-limit-kb 1000)
    ;; When used in a plist, `visual' takes precedence over `relative'.
    ;; (default nil)
-   dotspacemacs-line-numbers nil
+   dotspacemacs-line-numbers 'relative
 
    ;; Code folding method. Possible values are `evil' and `origami'.
    ;; (default 'evil)
