@@ -59,12 +59,12 @@ This function should only modify configuration layer settings."
                         projectile-enable-caching t
                         projectile-globally-ignored-directories '("node_modules" "dist")
                         projectile-git-submodule-command nil)
-     )
-    (go :variables
-        go-backend 'go-mode
-        go-tab-width 2
-        go-format-before-save t
-        go-use-golangci-lint t)
+     (go :variables
+         go-backend 'go-mode
+         go-tab-width 2
+         go-format-before-save t
+         go-use-golangci-lint t)
+    )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
