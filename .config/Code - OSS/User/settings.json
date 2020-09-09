@@ -73,7 +73,20 @@
         {
             "before": ["<C-j>"],
             "after": ["<C-e>"]
-        }
+        },
+	{
+	    "before": ["<leader>", "n"],
+	    "commands": [
+	        "editor.action.marker.nextInFiles"
+	    ]
+	},
+	{
+
+	    "before": ["<leader>", "N"],
+	    "commands": [
+	        "editor.action.marker.prevInFiles"
+	    ]
+	}
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
